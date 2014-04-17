@@ -11,3 +11,24 @@ long term stable C API initially for the Xen paravirtualization but
 should be able to integrate other virtualization mechanisms if needed.
 
 Daniel Veillard <veillard@redhat.com>
+
+
+##### MODIFIED #####
+
+Please Note: If possible, this code will merged as a patch into the main libvirt library codebase.
+Hence, please make sure you always refer to the original source available at http://libvirt.org/.
+This is a intermediate ground for patching up libvirt to add support for Hyper-V 2012 r2.
+
+The libvirt library has been downloaded and built with the following drivers. You can use virsh at tools/
+or use the object files (.so) or static libraries (.la) under src/.libs
+
+[user@localhost tools]# ./virsh -V
+Virsh command line tool of libvirt 1.2.4
+See web site at http://libvirt.org/
+
+Compiled with support for:
+ Hypervisors: QEMU/KVM LXC UML OpenVZ VMWare VirtualBox ESX Hyper-V Test
+ Networking: Remote Network Bridging Interface udev Nwfilter VirtualPort
+ Storage: Dir Filesystem SCSI Multipath LVM
+ Miscellaneous: Daemon Nodedev SELinux Secrets Debug Modular
+
