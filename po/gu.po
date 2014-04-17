@@ -19,10 +19,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Gujarati (http://www.transifex.com/projects/p/fedora/language/"
 "gu/)\n"
-"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: gu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3295,8 +3295,8 @@ msgstr "લક્ષ્ય ઉપકરણ સરનામાં પ્રકા
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "લક્ષ્ય ઉપકરણ PCI સરનામું %04x:%02x:%02x.%02x એ સ્ત્રોત %04x:%02x:%02x સાથે બંધબેસતુ "
 "નથી.%02x"
@@ -4455,8 +4455,8 @@ msgstr "નેટવર્ક %s નાં dns srv રેકોર્ડ '%s' �
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "નેટવર્ક %s નાં DNS SRV રેકોર્ડમાં ગુમ થયેલ અયોગ્ય પ્રોટોકોલ ગુણધર્મ કિંમત '%s'"
 
 #: src/conf/network_conf.c:1000
@@ -4876,8 +4876,8 @@ msgid ""
 "the <forward> 'dev' attribute cannot be used when <address> or <pf> sub-"
 "elements are present in network %s"
 msgstr ""
-"<forward> 'dev' ગુણધર્મ વાપરી શકાતુ નથી જ્યારે <address> અથવા <pf> ઉપ-ઘટકો નેટવર્ક "
-"%s માં હાજર છે"
+"<forward> 'dev' ગુણધર્મ વાપરી શકાતુ નથી જ્યારે <address> અથવા <pf> ઉપ-ઘટકો નેટવર્ક %"
+"s માં હાજર છે"
 
 #: src/conf/network_conf.c:1891
 #, c-format
@@ -5118,8 +5118,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "<interface dev='%s'> સાથે બંધબેસતા નેટવર્ક '%s' માં ઇન્ટરફેસ નોંધણીને શોધી શક્યા નહિં"
 
@@ -5134,8 +5134,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "<portgroup name='%s'> બંધબેસતા નેટવર્ક '%s' માં portgroup નોંધણીને શોધી શક્યા નહિં"
 
@@ -7160,8 +7160,8 @@ msgstr "ક્વેરી પરિમાણ 'auto_answer' પાસે અન�
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "ક્વેરી પરિમાણ 'પ્રોક્સી' અનિચ્છનીય પ્રકાર '%s' ને સમાવે છે ((http|socks(|4|4a|5) હોવુ "
 "જોઇએ)"
@@ -7370,8 +7370,8 @@ msgstr ""
 msgid ""
 "Expecting product 'gsx' or 'esx' or 'embeddedEsx' or 'vpx' but found '%s'"
 msgstr ""
-"પ્રોડક્ટ 'gsx' અથવા 'esx' અથવા 'embeddedEsx' અથવા 'vpx' ઇચ્છા રાખી રહ્યા છે પરંતુ "
-"'%s' મળ્યુ"
+"પ્રોડક્ટ 'gsx' અથવા 'esx' અથવા 'embeddedEsx' અથવા 'vpx' ઇચ્છા રાખી રહ્યા છે પરંતુ '%"
+"s' મળ્યુ"
 
 #: src/esx/esx_vi.c:911
 #, c-format
@@ -8371,8 +8371,8 @@ msgstr "બોન્ડ '%s' માટે અયોગ્ય ગુલામ બ
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr "'%s' માટે ઇન્ટરફેસ જાણકારીને મેળવી શક્યા નહિં, કે જે બોન્ડ '%s' માં ગુલામ બનેલ છે"
 
 #: src/interface/interface_backend_udev.c:876
@@ -8403,8 +8403,8 @@ msgstr "બ્રિજ '%s' નાં સભ્યોને મેળવી શ
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr "'%s' માટે ઇન્ટરફેસ જાણકારી મેળવી શક્યા નહિં, કે જે બ્રિજ '%s' નું સભ્ય છે"
 
 #: src/interface/interface_backend_udev.c:975
@@ -8467,8 +8467,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "મેલફોર્મ થયેલ 'uri_aliases' રૂપરેખાંકન નોંધણી '%s', ઉપસર્ગો ફક્ત 'a-Z, 0-9, _, -' ને "
 "સમાવી શકે છે"
@@ -11234,8 +11234,8 @@ msgid ""
 msgstr ""
 "જાહેરમાં રાઉટેબલ સરનામું %s ને પ્રતિબંધિત કરેલ છે. આ યજમાન (%d.%d) પર dnsmasq ની આવૃત્તિ "
 "બાઇન્ડ-ડાયનેમિક વિકલ્પને આધાર આપતુ નથી અથવા સોકેટને સાંભળવા પર SO_BINDTODEVICE  ને "
-"વાપરો, કે જેમાંથી એકની સાર્વજનિક રાઉટેબલ સબનેટ પર સુરક્ષિત ક્રિયા માટે જરૂરી છે "
-"(CVE-2012-3411 જુઓ). તમે ક્યાંતો dnsmasq ને સુધારવુ જ જોઇએ. અથવા આ નેટવર્ક માટે ખાનગી/"
+"વાપરો, કે જેમાંથી એકની સાર્વજનિક રાઉટેબલ સબનેટ પર સુરક્ષિત ક્રિયા માટે જરૂરી છે (CVE-"
+"2012-3411 જુઓ). તમે ક્યાંતો dnsmasq ને સુધારવુ જ જોઇએ. અથવા આ નેટવર્ક માટે ખાનગી/"
 "સ્થાનિક સબનેટ સીમાને વાપરો (RFC1918/RFC3484/RFC4193 માં વર્ણવેલ છે)."
 
 #: src/network/bridge_driver.c:888 src/network/bridge_driver.c:895
@@ -12405,8 +12405,8 @@ msgid ""
 "Cannot instantiate filter due to unresolvable variables or unavailable list "
 "elements: %s"
 msgstr ""
-"ઉકેલી ન શકાય તેવા ચલ અથવા બિનઉપલબ્ધ યાદી ઘટકોને કારણે ફિલ્ટરનું દૃષ્ટાંત આપી શકાતુ નથી: "
-"%s"
+"ઉકેલી ન શકાય તેવા ચલ અથવા બિનઉપલબ્ધ યાદી ઘટકોને કારણે ફિલ્ટરનું દૃષ્ટાંત આપી શકાતુ નથી: %"
+"s"
 
 #: src/nwfilter/nwfilter_gentech_driver.c:831
 #: src/nwfilter/nwfilter_gentech_driver.c:1059
@@ -19679,8 +19679,8 @@ msgid ""
 "man in the middle attack. The key is stored in '%s'."
 msgstr ""
 "!!! SSH HOST KEY VERIFICATION FAILED !!!: સંગ્રહેલ ઓળખાણમાંથી યજમાન '%s:%d' નું "
-"ઓળખાણ અલગ પડે છે. મધ્યમ હમલામાં શક્ય મદદને અવગણવા માટે મહેરબાની કરીને નવી યજમાન કી "
-"'%s' ને ચકાસો. કી '%s' માં સંગ્રહેલ છે."
+"ઓળખાણ અલગ પડે છે. મધ્યમ હમલામાં શક્ય મદદને અવગણવા માટે મહેરબાની કરીને નવી યજમાન કી '%"
+"s' ને ચકાસો. કી '%s' માં સંગ્રહેલ છે."
 
 #: src/rpc/virnetsshsession.c:504
 #, c-format
@@ -21233,8 +21233,8 @@ msgstr "ઉપકરણ '%s' પર પ્રકાર '%s' ની ફાઇલ�
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 "mkfs એ આ પ્લેટફોર્મ પર આધારભૂત નથી: ઉપકરણ '%s' પર પ્રકાર '%s' ની ફાઇલસિસ્ટમને "
 "બનાવવામાં નિષ્ફળતા"
@@ -21508,8 +21508,8 @@ msgstr "uuid '%s' ની મદદથી વપરાશકર્તાનામ
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 "વપરાશ કિંમત '%s' ની મદદથી વપરાશકર્તા નામ '%s' માટે ખાનગીની કિંમત મેળવી શક્યા નહિં"
 
@@ -24120,16 +24120,16 @@ msgstr ""
 msgid ""
 "attempt to merge virtualports with mismatched typeidversions (%d and %d)"
 msgstr ""
-"બંધબેસતા ન હોય તેવા typeidversions સાથે વર્ચ્યુઅલ પોર્ટને ભેગુ કરવાનો પ્રયત્ન કરો (%d અને "
-"%d)"
+"બંધબેસતા ન હોય તેવા typeidversions સાથે વર્ચ્યુઅલ પોર્ટને ભેગુ કરવાનો પ્રયત્ન કરો (%d અને %"
+"d)"
 
 #: src/util/virnetdevvportprofile.c:344
 #, c-format
 msgid ""
 "attempt to merge virtualports with mismatched instanceids ('%s' and '%s')"
 msgstr ""
-"બંધબેસતા ન હોય તેવા instanceids સાથે વર્ચ્યુઅલપોર્ટને ભેગા કરવાનો પ્રયત્ન કરો ('%s' અને "
-"'%s')"
+"બંધબેસતા ન હોય તેવા instanceids સાથે વર્ચ્યુઅલપોર્ટને ભેગા કરવાનો પ્રયત્ન કરો ('%s' અને '%"
+"s')"
 
 #: src/util/virnetdevvportprofile.c:364
 #, c-format
@@ -24144,8 +24144,8 @@ msgstr ""
 msgid ""
 "attempt to merge virtualports with mismatched profileids ('%s' and '%s')"
 msgstr ""
-"બંધબેસતા ન હોય તેવા profileids સાથે વર્ચ્યુઅલપોર્ટને ભેગા કરવાનો પ્રયત્ન કરો ('%s' અને "
-"'%s')"
+"બંધબેસતા ન હોય તેવા profileids સાથે વર્ચ્યુઅલપોર્ટને ભેગા કરવાનો પ્રયત્ન કરો ('%s' અને '%"
+"s')"
 
 #: src/util/virnetdevvportprofile.c:390
 msgid "corrupted profileid string"
@@ -26867,8 +26867,8 @@ msgstr "VMX નોંધણી 'config.version' એ ૮ હોવી એની �
 msgid ""
 "Expecting VMX entry 'virtualHW.version' to be 4, 7, 8, 9 or 10 but found %lld"
 msgstr ""
-"VMX નોંધણી 'virtualHW.version' એ ૪, ૭, ૮ અથવા ૯ હોય એની ઇચ્છા રાખી રહ્યા છે પરંતુ "
-"%lld મળ્યુ"
+"VMX નોંધણી 'virtualHW.version' એ ૪, ૭, ૮ અથવા ૯ હોય એની ઇચ્છા રાખી રહ્યા છે પરંતુ %"
+"lld મળ્યુ"
 
 #: src/vmx/vmx.c:1344
 msgid "VMX entry 'name' contains invalid escape sequence"
@@ -26950,15 +26950,15 @@ msgstr "ઉપકરણ પ્રકાર '%s' માટે બિનઆધા�
 #, c-format
 msgid "Expecting VMX entry '%s' to be 'scsi-hardDisk' or 'disk' but found '%s'"
 msgstr ""
-"VMX નોંધણી '%s' ને 'scsi-hardDisk' અથવા 'disk' રાખવાની ઇચ્છા રાખી રહ્યા છે પરંતુ "
-"'%s' મળ્યુ"
+"VMX નોંધણી '%s' ને 'scsi-hardDisk' અથવા 'disk' રાખવાની ઇચ્છા રાખી રહ્યા છે પરંતુ '%"
+"s' મળ્યુ"
 
 #: src/vmx/vmx.c:2185
 #, c-format
 msgid "Expecting VMX entry '%s' to be 'ata-hardDisk' or 'disk' but found '%s'"
 msgstr ""
-"VMX નોંધણી '%s' ને 'ata-hardDisk' અથવા 'disk'  રાખવાની ઇચ્છા રાખી રહ્યા છે પરંતુ "
-"'%s' મળ્યુ"
+"VMX નોંધણી '%s' ને 'ata-hardDisk' અથવા 'disk'  રાખવાની ઇચ્છા રાખી રહ્યા છે પરંતુ '%"
+"s' મળ્યુ"
 
 #: src/vmx/vmx.c:2217 src/vmx/vmx.c:2274 src/vmx/vmx.c:2298
 #, c-format
@@ -26990,8 +26990,8 @@ msgstr "VMX નોંધણી '%s' એ  MAC સરનામું હોય ત
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 "VMX નોંધણી '%s' એ 'પેદા થયેલ' અથવા 'સ્થિર' અથવા 'vpx' હોય તેની ઇચ્છા રાખી રહ્યા છે "
 "પરંતુ '%s' મળ્યુ"
@@ -27095,8 +27095,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 "ઓછામાં ઓછા %d CPU(s) ને સમાવવા માટે નોંધણી 'vcpu' નાં ડોમેઇન XML ગુણધર્મ 'cpuset' ની "
 "ઇચ્છા રાખી રહ્યા છે"

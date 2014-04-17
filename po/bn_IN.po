@@ -15,10 +15,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Bengali (India) (http://www.transifex.com/projects/p/fedora/"
 "language/bn_IN/)\n"
-"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3273,8 +3273,8 @@ msgstr "টার্গেট ডিভাইস ঠিকানা ধরন %s
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "টার্গেট ডিভাইস PCI ঠিকানা %04x:%02x:%02x.%02x সোর্স %04x:%02x:%02x.%02x এর "
 "সংগে মেলে না"
@@ -4443,8 +4443,8 @@ msgstr "dns srv রেকর্ড '%s' এ %s নেটওয়ার্কে
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "অবৈধ প্রোটোকল অ্যাট্রিবিউট মান '%s' DNS SRV রেকর্ডে %s নেটওয়ার্কের"
 
 #: src/conf/network_conf.c:1000
@@ -5083,8 +5083,8 @@ msgstr ""
 msgid ""
 "couldn't locate an existing dhcp host entry with \"mac='%s'\" in network '%s'"
 msgstr ""
-"একটি বিদ্যমান dhcp হোস্ট এন্ট্রির স্থান নির্ধারণ করতে পারেনি, \"mac='%s'\" সমেত, "
-"'%s' নেটওয়ার্কে"
+"একটি বিদ্যমান dhcp হোস্ট এন্ট্রির স্থান নির্ধারণ করতে পারেনি, \"mac='%s'\" সমেত, '%"
+"s' নেটওয়ার্কে"
 
 #: src/conf/network_conf.c:3513
 #, c-format
@@ -5138,8 +5138,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "'%s' নেটওয়ার্কে <interface dev='%s'> এর সংগে মানানসই একটি ইন্টারফেস এন্ট্রি "
 "পাওয়া যায়নি"
@@ -5156,8 +5156,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "'%s' নেটওয়ার্কে <portgroup name='%s'> এর মানানসই একটি portgroup এন্ট্রি পাওয়া "
 "যায়নি"
@@ -7183,8 +7183,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 
 #: src/esx/esx_util.c:135
@@ -8376,8 +8376,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:876
@@ -8408,8 +8408,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:975
@@ -8471,8 +8471,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 
 #: src/libvirt.c:1021
@@ -21050,8 +21050,8 @@ msgstr ""
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 
 #: src/storage/storage_backend_fs.c:699
@@ -21324,8 +21324,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26754,8 +26754,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 
 #: src/vmx/vmx.c:2578
@@ -26847,8 +26847,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 
 #: src/vmx/vmx.c:3228
@@ -28183,8 +28183,8 @@ msgid ""
 "%s: temporary filename contains shell meta or other unacceptable characters "
 "(is $TMPDIR wrong?)"
 msgstr ""
-"%s: অস্থায়ী ফাইলের নামের মধ্যে শেল মিটা অথবা অন্য অগ্রহণীয় অক্ষর উপস্থিত "
-"রয়েছে($TMPDIR কী ভুল?)"
+"%s: অস্থায়ী ফাইলের নামের মধ্যে শেল মিটা অথবা অন্য অগ্রহণীয় অক্ষর উপস্থিত রয়েছে"
+"($TMPDIR কী ভুল?)"
 
 #: tools/virsh.c:815
 #, c-format

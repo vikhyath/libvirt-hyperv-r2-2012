@@ -17,10 +17,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/fedora/language/"
 "it/)\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3273,8 +3273,8 @@ msgstr ""
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 
 #: src/conf/domain_conf.c:13313
@@ -4426,8 +4426,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr ""
 
 #: src/conf/network_conf.c:1000
@@ -5061,8 +5061,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 
 #: src/conf/network_conf.c:3735
@@ -5075,8 +5075,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 
 #: src/conf/network_conf.c:3810
@@ -6817,8 +6817,8 @@ msgstr ""
 msgid ""
 "Could not set limit to %lld MHz, expecting positive value or -1 (unlimited)"
 msgstr ""
-"Impossibile impostare un limite su %lld MHz, previsto un valore positivo o "
-"-1 (illimitato)"
+"Impossibile impostare un limite su %lld MHz, previsto un valore positivo o -"
+"1 (illimitato)"
 
 #: src/esx/esx_driver.c:3772
 #, c-format
@@ -6826,8 +6826,8 @@ msgid ""
 "Could not set shares to %d, expecting positive value or -1 (low), -2 "
 "(normal) or -3 (high)"
 msgstr ""
-"Impossibile impostare le condivisioni su %d, previsto un valore positivo o "
-"-1 (low), -2 (normal) o -3 (high)"
+"Impossibile impostare le condivisioni su %d, previsto un valore positivo o -"
+"1 (low), -2 (normal) o -3 (high)"
 
 #: src/esx/esx_driver.c:3792
 #, c-format
@@ -7100,16 +7100,16 @@ msgstr ""
 msgid ""
 "Query parameter 'transport' has unexpected value '%s' (should be http|https)"
 msgstr ""
-"Il parametro di interrogazione 'transport' presenta un valore non previsto "
-"'%s' (previsto http|https)"
+"Il parametro di interrogazione 'transport' presenta un valore non previsto '%"
+"s' (previsto http|https)"
 
 #: src/esx/esx_util.c:85
 #, c-format
 msgid ""
 "Query parameter 'no_verify' has unexpected value '%s' (should be 0 or 1)"
 msgstr ""
-"Il parametro di interrogazione 'no_verify' presenta un valore non previsto "
-"'%s' (previsto 0 o 1)"
+"Il parametro di interrogazione 'no_verify' presenta un valore non previsto '%"
+"s' (previsto 0 o 1)"
 
 #: src/esx/esx_util.c:95
 #, c-format
@@ -7122,11 +7122,11 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
-"Il parametro d'interrogazione 'proxy' presenta un tipo non previsto di "
-"'%s' (dovrebbe essere (http|socks(|4|4a|5))"
+"Il parametro d'interrogazione 'proxy' presenta un tipo non previsto di '%"
+"s' (dovrebbe essere (http|socks(|4|4a|5))"
 
 #: src/esx/esx_util.c:135
 msgid "Query parameter 'proxy' doesn't contain a hostname"
@@ -7191,8 +7191,8 @@ msgstr ""
 msgid ""
 "curl_easy_getinfo(CURLINFO_REDIRECT_URL) returned an error: %s (%d) : %s"
 msgstr ""
-"curl_easy_getinfo(CURLINFO_REDIRECT_URL) ha restituito un errore: %s (%d) : "
-"%s"
+"curl_easy_getinfo(CURLINFO_REDIRECT_URL) ha restituito un errore: %s (%d) : %"
+"s"
 
 #: src/esx/esx_vi.c:289
 #, c-format
@@ -8344,8 +8344,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:876
@@ -8376,8 +8376,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:975
@@ -8439,8 +8439,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 
 #: src/libvirt.c:1021
@@ -10807,8 +10807,8 @@ msgstr "impossibile determinare le vcpu massime per il dominio"
 msgid ""
 "requested vcpus is greater than max allowable vcpus for the domain: %d > %d"
 msgstr ""
-"le vcpu richieste sono maggiori delle vcpu massime permesse per il dominio: "
-"%d > %d"
+"le vcpu richieste sono maggiori delle vcpu massime permesse per il dominio: %"
+"d > %d"
 
 #: src/libxl/libxl_driver.c:1791 src/libxl/libxl_driver.c:1800
 #, c-format
@@ -11559,15 +11559,15 @@ msgstr ""
 #, c-format
 msgid "failed to add iptables rule to allow routing from '%s'"
 msgstr ""
-"impossibile aggiungere la regola iptables per abilitare l'instradamento da "
-"'%s'"
+"impossibile aggiungere la regola iptables per abilitare l'instradamento da '%"
+"s'"
 
 #: src/network/bridge_driver_linux.c:406
 #, c-format
 msgid "failed to add iptables rule to allow routing to '%s'"
 msgstr ""
-"impossibile aggiungere la regola iptables per abilitare l'instradamento a "
-"'%s'"
+"impossibile aggiungere la regola iptables per abilitare l'instradamento a '%"
+"s'"
 
 #: src/network/bridge_driver_linux.c:461
 #, c-format
@@ -15785,8 +15785,8 @@ msgid ""
 "requested vcpu count is greater than the count of enabled vcpus in the "
 "domain: %d > %d"
 msgstr ""
-"le vcpu richieste sono maggiori delle vcpu massime permesse per il dominio: "
-"%d > %d"
+"le vcpu richieste sono maggiori delle vcpu massime permesse per il dominio: %"
+"d > %d"
 
 #: src/qemu/qemu_driver.c:4271
 #, c-format
@@ -21141,8 +21141,8 @@ msgstr ""
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 
 #: src/storage/storage_backend_fs.c:699
@@ -21413,8 +21413,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26850,8 +26850,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 
 #: src/vmx/vmx.c:2578
@@ -26943,8 +26943,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 
 #: src/vmx/vmx.c:3228

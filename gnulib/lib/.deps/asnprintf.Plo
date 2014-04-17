@@ -1,0 +1,13 @@
+asnprintf.lo: asnprintf.c ../../config.h ../../config-post.h vasnprintf.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h
+
+../../config.h:
+
+../../config-post.h:
+
+vasnprintf.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:

@@ -26,10 +26,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/fedora/language/"
 "es/)\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -556,8 +556,8 @@ msgstr "Fallo de Policy kit al verificar autorizaciones %d %s"
 #, c-format
 msgid "Policy kit denied action %s from pid %lld, uid %d, result: %s"
 msgstr ""
-"Paquete de políticas de acción denegada %s del PID %lld, UID %d, resultado: "
-"%s"
+"Paquete de políticas de acción denegada %s del PID %lld, UID %d, resultado: %"
+"s"
 
 #: daemon/remote.c:3432
 msgid "client tried unsupported PolicyKit init request"
@@ -1224,8 +1224,8 @@ msgstr "Los hilos %d de  la CPU elegida no coinciden con la fuente %d"
 #, c-format
 msgid "Target CPU feature count %zu does not match source %zu"
 msgstr ""
-"La funcionalidad de conteo %zu de la CPU elegida no coincide con la fuente "
-"%zu"
+"La funcionalidad de conteo %zu de la CPU elegida no coincide con la fuente %"
+"zu"
 
 #: src/conf/cpu_conf.c:807
 #, c-format
@@ -3358,8 +3358,8 @@ msgstr ""
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "La dirección PCI del dispositivo elegido %04x:%02x:%02x.%02x no coincide con "
 "la fuente %04x:%02x:%02x.%02x"
@@ -3500,8 +3500,8 @@ msgstr ""
 #, c-format
 msgid "Target video card heads %u does not match source %u"
 msgstr ""
-"Los cabezales de la tarjeta de video elegidos %u no coinciden con la fuente "
-"%u"
+"Los cabezales de la tarjeta de video elegidos %u no coinciden con la fuente %"
+"u"
 
 #: src/conf/domain_conf.c:13603
 msgid "Target video card acceleration does not match source"
@@ -3599,8 +3599,8 @@ msgstr "Modelo RNG de destino '%s' no coincide con fuente '%s'"
 #, c-format
 msgid "Target hub device type %s does not match source %s"
 msgstr ""
-"El destino de tipo de dispositivo concentrador %s no coincide con la fuente "
-"%s"
+"El destino de tipo de dispositivo concentrador %s no coincide con la fuente %"
+"s"
 
 #: src/conf/domain_conf.c:13870
 #, c-format
@@ -3761,8 +3761,8 @@ msgstr ""
 #, c-format
 msgid "Target domain video card count %zu does not match source %zu"
 msgstr ""
-"Conteo de tarjeta de vídeo de dominio de destino %zu no coincide con fuente "
-"%zu"
+"Conteo de tarjeta de vídeo de dominio de destino %zu no coincide con fuente %"
+"zu"
 
 #: src/conf/domain_conf.c:14214
 #, c-format
@@ -3787,8 +3787,8 @@ msgstr ""
 #, c-format
 msgid "Target domain parallel port count %zu does not match source %zu"
 msgstr ""
-"Conteo de puerto paralelo de dominio de destino %zu no coincide con fuente "
-"%zu"
+"Conteo de puerto paralelo de dominio de destino %zu no coincide con fuente %"
+"zu"
 
 #: src/conf/domain_conf.c:14266
 #, c-format
@@ -3804,8 +3804,8 @@ msgstr "Conteo de consola de dominio de destino %zu no coincide con fuente %zu"
 #, c-format
 msgid "Target domain hub device count %zu does not match source %zu"
 msgstr ""
-"Conteo de dispositivo hub de dominio de destino %zu no coincide con fuente "
-"%zu"
+"Conteo de dispositivo hub de dominio de destino %zu no coincide con fuente %"
+"zu"
 
 #: src/conf/domain_conf.c:14305
 #, c-format
@@ -4597,8 +4597,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr ""
 "Valor de atributo de protocolo inválido '%s' en registro DNS SRV de red %s"
 
@@ -5245,15 +5245,15 @@ msgid ""
 "couldn't update dhcp host entry - no <ip> element found at index %d in "
 "network '%s'"
 msgstr ""
-"No se pudo actualizar entrada dhcp  no se  encontró  elemento <ip> en index "
-"%d en red '%s'"
+"No se pudo actualizar entrada dhcp  no se  encontró  elemento <ip> en index %"
+"d en red '%s'"
 
 #: src/conf/network_conf.c:3437
 #, c-format
 msgid "couldn't update dhcp host entry - no <ip> element found in network '%s'"
 msgstr ""
-"No se pudo actualizar entrada dhcp no se  encontró  elemento <ip>  en red "
-"'%s'"
+"No se pudo actualizar entrada dhcp no se  encontró  elemento <ip>  en red '%"
+"s'"
 
 #: src/conf/network_conf.c:3485
 #, c-format
@@ -5313,14 +5313,14 @@ msgid ""
 "there is an existing interface entry in network '%s' that matches "
 "\"<interface dev='%s'>\""
 msgstr ""
-"Hay una entrada de interfaz en red '%s' que coincide con \"<interface "
-"dev='%s'>\""
+"Hay una entrada de interfaz en red '%s' que coincide con \"<interface dev='%"
+"s'>\""
 
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "No se encontró una entrada de interfaz en red '%s' que coincida con  "
 "<interface dev='%s'>"
@@ -5337,8 +5337,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "No se encontró una entrada portgroup  en red '%s' coincidente con <portgroup "
 "name='%s'>"
@@ -5811,8 +5811,8 @@ msgid ""
 "Invalid chain name '%s'. Please use a chain name called '%s' or any of the "
 "following prefixes: "
 msgstr ""
-"Nombre de cadena inválido '%s'. Por favor use el nombre de cadena llamado "
-"'%s' o cualquiera de los siguientes  prefijos:"
+"Nombre de cadena inválido '%s'. Por favor use el nombre de cadena llamado '%"
+"s' o cualquiera de los siguientes  prefijos:"
 
 #: src/conf/nwfilter_conf.c:2520
 msgid "filter has no name"
@@ -6835,8 +6835,8 @@ msgstr "No se pudo buscar el modelo del controlador para '%s'"
 #, c-format
 msgid "Found unexpected controller model '%s' for disk '%s'"
 msgstr ""
-"Ha sido encontrado un modelo de controlador '%s' no esperado para el disco "
-"'%s'"
+"Ha sido encontrado un modelo de controlador '%s' no esperado para el disco '%"
+"s'"
 
 #: src/esx/esx_driver.c:494
 #, c-format
@@ -7132,8 +7132,8 @@ msgstr "No es posible definir reserva a %lld MHz, se esperaba unvalor positivo"
 msgid ""
 "Could not set limit to %lld MHz, expecting positive value or -1 (unlimited)"
 msgstr ""
-"No es posible definir un límite a %lld MHz, se esperaba un valor positivo o "
-"-1 (ilimitado)"
+"No es posible definir un límite a %lld MHz, se esperaba un valor positivo o -"
+"1 (ilimitado)"
 
 #: src/esx/esx_driver.c:3772
 #, c-format
@@ -7440,8 +7440,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "El parámetro de consulta 'proxy' posee un tipo '%s' no esperado (debería ser "
 "(http|socks(|4|4a|5))"
@@ -7455,8 +7455,8 @@ msgstr "El parámetro de consulta 'proxy' no contiene un nombre de equipo"
 msgid ""
 "Query parameter 'proxy' has unexpected port value '%s' (should be [1..65535])"
 msgstr ""
-"Solicitud de parámetro 'proxy' tiene un valor de puerto inesperado  "
-"'%s' (debe ser [1..65535])"
+"Solicitud de parámetro 'proxy' tiene un valor de puerto inesperado  '%"
+"s' (debe ser [1..65535])"
 
 #: src/esx/esx_util.c:245
 #, c-format
@@ -8692,8 +8692,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 "No se pudo obtener información de  '%s', el cual está esclavizado en vínculo "
 "'%s'"
@@ -8727,8 +8727,8 @@ msgstr "No se pudieron obtener miembros del puente '%s'"
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 "No se pudo obtener información de interfaz para '%s', el cual es miembro de "
 "puente '%s'"
@@ -8796,8 +8796,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "Entrada de configuración 'uri_aliases' malformada '%s', los alias solo "
 "pueden contener 'a-Z, 0-9, _, -'"
@@ -10181,8 +10181,8 @@ msgstr "Se esperaban veths %zu, pero se obtuvieron %zu"
 #, c-format
 msgid "expecting %zu consoles, but got %zu tty file handlers"
 msgstr ""
-"Se esperaban consolas %zu , pero se obtuvieron manejadores de archivos tty  "
-"%zu"
+"Se esperaban consolas %zu , pero se obtuvieron manejadores de archivos tty  %"
+"zu"
 
 #: src/lxc/lxc_controller.c:420 src/lxc/lxc_controller.c:452
 msgid "An explicit disk format must be specified"
@@ -11598,9 +11598,9 @@ msgstr ""
 "La dirección públicamente enrutable %s está prohibida. La versión de dnsmasq "
 "en este host (%d.%d) no soporta la opción bind-dynamic ni utiliza "
 "SO_BINDTODEVICE en sockets de escucha, uno de los cuales se requiere para "
-"una operación segura en una subred públicamente enrutable (ver "
-"CVE-2012-3411). Debe actualizar dnsmasq, o usar un rango de subred privado/"
-"local para esta red (como se describe en RFC1918/RFC3484/RFC4193)."
+"una operación segura en una subred públicamente enrutable (ver CVE-2012-"
+"3411). Debe actualizar dnsmasq, o usar un rango de subred privado/local para "
+"esta red (como se describe en RFC1918/RFC3484/RFC4193)."
 
 #: src/network/bridge_driver.c:888 src/network/bridge_driver.c:895
 #, fuzzy, c-format
@@ -11619,8 +11619,8 @@ msgid ""
 "dhcp range or dhcp host specification. Version %d.%d or later is required."
 msgstr ""
 "La versión de dnsmasq en este host (%d.%d) no soporta de forma correcta el "
-"rango dhcp IPv6 dhcp o la especificación dhcp host. Se requiere la versión "
-"%d.%d o posterior."
+"rango dhcp IPv6 dhcp o la especificación dhcp host. Se requiere la versión %"
+"d.%d o posterior."
 
 #: src/network/bridge_driver.c:970
 msgid "For IPv6, multiple DHCP definitions cannot be specified."
@@ -16864,8 +16864,8 @@ msgid ""
 "active qemu domains require external disk snapshots; disk %s requested "
 "internal"
 msgstr ""
-"Dominios de QEMU activos requieren instantáneas de discos externos;  disco "
-"%s solicitado interno"
+"Dominios de QEMU activos requieren instantáneas de discos externos;  disco %"
+"s solicitado interno"
 
 #: src/qemu/qemu_driver.c:12647
 #, c-format
@@ -19451,8 +19451,8 @@ msgstr "se han solicitado demasiadas estadísticas de memoria: %d > %d"
 #, c-format
 msgid "block peek request too large for remote protocol, %zi > %d"
 msgstr ""
-"petición de bloqueo de examen demasiado extensa para el protocolo remoto, "
-"%zi > %d"
+"petición de bloqueo de examen demasiado extensa para el protocolo remoto, %"
+"zi > %d"
 
 #: src/remote/remote_driver.c:2779 src/remote/remote_driver.c:2830
 msgid "returned buffer is not same size as requested"
@@ -21956,8 +21956,8 @@ msgstr "Falló al crear sistema de archivos de tipo '%s' en dispositivo '%s'"
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 "mkfs no tiene soporte en  esta plataforma: Falló crear sistema de archivos  "
 "tipo '%s' en el dispositivo '%s'"
@@ -22236,8 +22236,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -23110,8 +23110,8 @@ msgstr "Falta el elemento 'credentials' en grupo '%s' en '%s'"
 #, c-format
 msgid "Missing group 'credentials-%s' referenced from group '%s' in '%s'"
 msgstr ""
-"Falta el grupo 'credentials-%s' al que se hace referencia en grupo '%s' en "
-"'%s'"
+"Falta el grupo 'credentials-%s' al que se hace referencia en grupo '%s' en '%"
+"s'"
 
 #: src/util/virbitmap.c:386
 #, c-format
@@ -23807,8 +23807,8 @@ msgstr "No es posible escribir el archivo de configuración '%s'"
 #, c-format
 msgid "Failed to make dnsmasq (PID: %d) reload config files."
 msgstr ""
-"Falló al realizar la recarga de los archivos de configuración dnsmasq (PID: "
-"%d)."
+"Falló al realizar la recarga de los archivos de configuración dnsmasq (PID: %"
+"d)."
 
 #: src/util/virdnsmasq.c:725
 #, c-format
@@ -24272,8 +24272,8 @@ msgstr "Falló al ejecutar el comando '%s' para crear una nueva interfaz isci"
 #, c-format
 msgid "Failed to run command '%s' to update iscsi interface with IQN '%s'"
 msgstr ""
-"Falló al ejecutar el comando '%s' para actualizar la interfaz isci con IQN "
-"'%s'"
+"Falló al ejecutar el comando '%s' para actualizar la interfaz isci con IQN '%"
+"s'"
 
 #: src/util/viriscsi.c:489
 #, c-format
@@ -27090,8 +27090,8 @@ msgstr ""
 #, c-format
 msgid "can't get the uuid of the file to be attached to cdrom: %s, rc=%08x"
 msgstr ""
-"no es posible obtener el uuid del archivo a ser asociado al cdrom: %s, rc="
-"%08x"
+"no es posible obtener el uuid del archivo a ser asociado al cdrom: %s, rc=%"
+"08x"
 
 #: src/vbox/vbox_tmpl.c:3952 src/vbox/vbox_tmpl.c:5571
 #, c-format
@@ -27645,8 +27645,8 @@ msgid ""
 "Inconsistent SCSI controller model ('%s' is not '%s') for SCSI controller "
 "index %d"
 msgstr ""
-"Modelo del controlador SCSI inconsistente ('%s' no es '%s') para el índice "
-"%d del controlador SCSI"
+"Modelo del controlador SCSI inconsistente ('%s' no es '%s') para el índice %"
+"d del controlador SCSI"
 
 #: src/vmx/vmx.c:1184
 #, c-format
@@ -27813,8 +27813,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 "Se esperaba que la entrada VMX '%s' sea 'generated', o 'static', o 'vpx', "
 "pero se ha encontrado '%s'"
@@ -27921,8 +27921,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 "Se esperaba que el atributo 'cpuset' de la entrada 'vcpu' del dominio XML,  "
 "tuviera al menos %d CPU (s)"
@@ -28041,8 +28041,8 @@ msgid ""
 "invalid path, device names must be in the range sda[1-15] - sdiv[1-15] for "
 "domain %d"
 msgstr ""
-"Ruta inválida, los nombres de dispositivos deben estar en el rango  "
-"sda[1-15] - sdiv[1-15] para dominio %d"
+"Ruta inválida, los nombres de dispositivos deben estar en el rango  sda[1-"
+"15] - sdiv[1-15] para dominio %d"
 
 #: src/xen/block_stats.c:340
 #, c-format
@@ -31834,8 +31834,8 @@ msgstr ""
 #, c-format
 msgid "Failed to remove managed save image for domain %s"
 msgstr ""
-"Falló al eliminar una imagen de almacenamiento administrado para el dominio "
-"%s"
+"Falló al eliminar una imagen de almacenamiento administrado para el dominio %"
+"s"
 
 #: tools/virsh-domain.c:4105
 #, c-format

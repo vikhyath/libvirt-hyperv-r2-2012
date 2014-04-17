@@ -16,10 +16,10 @@ msgstr ""
 "Last-Translator: readmanr <robert_readman@hotmail.com>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/"
 "fedora/language/en_GB/)\n"
-"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3310,11 +3310,11 @@ msgstr "Target device address type %s does not match source %s"
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 
 #: src/conf/domain_conf.c:13313
 #, c-format
@@ -4484,8 +4484,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "Invalid protocol attribute value '%s' in DNS SRV record of network %s"
 
 #: src/conf/network_conf.c:1000
@@ -5176,11 +5176,11 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 
 #: src/conf/network_conf.c:3735
 #, c-format
@@ -5194,11 +5194,11 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 
 #: src/conf/network_conf.c:3810
 #, c-format
@@ -7238,11 +7238,11 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 
 #: src/esx/esx_util.c:135
 msgid "Query parameter 'proxy' doesn't contain a hostname"
@@ -8455,11 +8455,11 @@ msgstr "Invalid enslaved interface name '%s' seen for bond '%s'"
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 
 #: src/interface/interface_backend_udev.c:876
 #, c-format
@@ -8489,11 +8489,11 @@ msgstr "Could not get members of bridge '%s'"
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 
 #: src/interface/interface_backend_udev.c:975
 #, c-format
@@ -8555,11 +8555,11 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 
 #: src/libvirt.c:1021
 msgid "Expected a string for 'uri_default' config parameter"
@@ -21427,11 +21427,11 @@ msgstr "Failed to make filesystem of type '%s' on device '%s'"
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 
 #: src/storage/storage_backend_fs.c:699
 #, c-format
@@ -21704,11 +21704,11 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 
 #: src/storage/storage_backend_rbd.c:137
 msgid "failed to decode the RADOS key"
@@ -27211,11 +27211,11 @@ msgstr "Expecting VMX entry '%s' to be MAC address but found '%s'"
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 
 #: src/vmx/vmx.c:2578
 #, c-format
@@ -27314,11 +27314,11 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 
 #: src/vmx/vmx.c:3228
 #, c-format

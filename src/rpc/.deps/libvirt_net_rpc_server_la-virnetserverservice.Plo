@@ -1,0 +1,397 @@
+rpc/libvirt_net_rpc_server_la-virnetserverservice.lo: \
+ rpc/virnetserverservice.c ../config.h ../config-post.h \
+ rpc/virnetserverservice.h rpc/virnetserverprogram.h rpc/virnetmessage.h \
+ rpc/virnetprotocol.h /usr/include/rpc/rpc.h /usr/include/rpc/types.h \
+ ../gnulib/lib/stdlib.h /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ ../gnulib/lib/sys/types.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ ../gnulib/lib/time.h /usr/include/time.h ../gnulib/lib/sys/select.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ ../gnulib/lib/alloca.h /usr/include/bits/stdlib.h \
+ ../gnulib/lib/sys/time.h /usr/include/sys/time.h \
+ /usr/include/sys/param.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h /usr/include/linux/param.h \
+ /usr/include/asm/param.h /usr/include/asm-generic/param.h \
+ /usr/include/netinet/in.h /usr/include/stdint.h \
+ /usr/include/bits/wchar.h ../gnulib/lib/sys/socket.h \
+ /usr/include/sys/socket.h ../gnulib/lib/sys/uio.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/socket2.h \
+ /usr/include/bits/in.h /usr/include/rpc/xdr.h ../gnulib/lib/stdio.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ ../gnulib/lib/wchar.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
+ /usr/include/bits/stdio2.h /usr/include/rpc/auth.h \
+ /usr/include/rpc/clnt.h /usr/include/sys/un.h ../gnulib/lib/string.h \
+ /usr/include/string.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/bits/string3.h \
+ /usr/include/rpc/rpc_msg.h /usr/include/rpc/auth_unix.h \
+ /usr/include/rpc/auth_des.h /usr/include/rpc/svc.h \
+ /usr/include/rpc/svc_auth.h /usr/include/rpc/netdb.h internal.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ ../gnulib/lib/verify.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h \
+ ../gnulib/lib/gettext.h /usr/include/libintl.h ../gnulib/lib/locale.h \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ ../include/libvirt/libvirt.h ../include/libvirt/libvirt-lxc.h \
+ ../include/libvirt/libvirt-qemu.h ../include/libvirt/virterror.h \
+ ../gnulib/lib/c-strcase.h ../gnulib/lib/ignore-value.h \
+ ../gnulib/lib/arpa/inet.h /usr/include/arpa/inet.h \
+ rpc/virnetserverclient.h ../src/util/viridentity.h \
+ ../src/util/virobject.h ../src/util/virthread.h ../src/util/virerror.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h rpc/virnetsocket.h \
+ ../src/util/virsocketaddr.h ../src/util/vircommand.h \
+ ../src/util/virbuffer.h ../src/util/virobject.h ../src/util/virjson.h \
+ ../src/util/viruri.h /usr/include/libxml2/libxml/uri.h \
+ /usr/include/libxml2/libxml/xmlversion.h \
+ /usr/include/libxml2/libxml/xmlexports.h \
+ /usr/include/libxml2/libxml/tree.h \
+ /usr/include/libxml2/libxml/xmlstring.h \
+ /usr/include/libxml2/libxml/xmlregexp.h \
+ /usr/include/libxml2/libxml/dict.h \
+ /usr/include/libxml2/libxml/xmlmemory.h \
+ /usr/include/libxml2/libxml/threads.h \
+ /usr/include/libxml2/libxml/globals.h \
+ /usr/include/libxml2/libxml/parser.h /usr/include/libxml2/libxml/hash.h \
+ /usr/include/libxml2/libxml/valid.h \
+ /usr/include/libxml2/libxml/xmlerror.h \
+ /usr/include/libxml2/libxml/list.h \
+ /usr/include/libxml2/libxml/xmlautomata.h \
+ /usr/include/libxml2/libxml/entities.h \
+ /usr/include/libxml2/libxml/encoding.h /usr/include/iconv.h \
+ /usr/include/libxml2/libxml/xmlIO.h /usr/include/libxml2/libxml/SAX.h \
+ /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+ ../src/util/viralloc.h ../src/util/virerror.h ../src/util/virthread.h
+
+../config.h:
+
+../config-post.h:
+
+rpc/virnetserverservice.h:
+
+rpc/virnetserverprogram.h:
+
+rpc/virnetmessage.h:
+
+rpc/virnetprotocol.h:
+
+/usr/include/rpc/rpc.h:
+
+/usr/include/rpc/types.h:
+
+../gnulib/lib/stdlib.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+../gnulib/lib/sys/types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+../gnulib/lib/time.h:
+
+/usr/include/time.h:
+
+../gnulib/lib/sys/select.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+../gnulib/lib/alloca.h:
+
+/usr/include/bits/stdlib.h:
+
+../gnulib/lib/sys/time.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/param.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/linux/param.h:
+
+/usr/include/asm/param.h:
+
+/usr/include/asm-generic/param.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+../gnulib/lib/sys/socket.h:
+
+/usr/include/sys/socket.h:
+
+../gnulib/lib/sys/uio.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/socket2.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/rpc/xdr.h:
+
+../gnulib/lib/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+../gnulib/lib/wchar.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdarg.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/bits/stdio2.h:
+
+/usr/include/rpc/auth.h:
+
+/usr/include/rpc/clnt.h:
+
+/usr/include/sys/un.h:
+
+../gnulib/lib/string.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/bits/string3.h:
+
+/usr/include/rpc/rpc_msg.h:
+
+/usr/include/rpc/auth_unix.h:
+
+/usr/include/rpc/auth_des.h:
+
+/usr/include/rpc/svc.h:
+
+/usr/include/rpc/svc_auth.h:
+
+/usr/include/rpc/netdb.h:
+
+internal.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../gnulib/lib/verify.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h:
+
+../gnulib/lib/gettext.h:
+
+/usr/include/libintl.h:
+
+../gnulib/lib/locale.h:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+../include/libvirt/libvirt.h:
+
+../include/libvirt/libvirt-lxc.h:
+
+../include/libvirt/libvirt-qemu.h:
+
+../include/libvirt/virterror.h:
+
+../gnulib/lib/c-strcase.h:
+
+../gnulib/lib/ignore-value.h:
+
+../gnulib/lib/arpa/inet.h:
+
+/usr/include/arpa/inet.h:
+
+rpc/virnetserverclient.h:
+
+../src/util/viridentity.h:
+
+../src/util/virobject.h:
+
+../src/util/virthread.h:
+
+../src/util/virerror.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+rpc/virnetsocket.h:
+
+../src/util/virsocketaddr.h:
+
+../src/util/vircommand.h:
+
+../src/util/virbuffer.h:
+
+../src/util/virobject.h:
+
+../src/util/virjson.h:
+
+../src/util/viruri.h:
+
+/usr/include/libxml2/libxml/uri.h:
+
+/usr/include/libxml2/libxml/xmlversion.h:
+
+/usr/include/libxml2/libxml/xmlexports.h:
+
+/usr/include/libxml2/libxml/tree.h:
+
+/usr/include/libxml2/libxml/xmlstring.h:
+
+/usr/include/libxml2/libxml/xmlregexp.h:
+
+/usr/include/libxml2/libxml/dict.h:
+
+/usr/include/libxml2/libxml/xmlmemory.h:
+
+/usr/include/libxml2/libxml/threads.h:
+
+/usr/include/libxml2/libxml/globals.h:
+
+/usr/include/libxml2/libxml/parser.h:
+
+/usr/include/libxml2/libxml/hash.h:
+
+/usr/include/libxml2/libxml/valid.h:
+
+/usr/include/libxml2/libxml/xmlerror.h:
+
+/usr/include/libxml2/libxml/list.h:
+
+/usr/include/libxml2/libxml/xmlautomata.h:
+
+/usr/include/libxml2/libxml/entities.h:
+
+/usr/include/libxml2/libxml/encoding.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libxml2/libxml/xmlIO.h:
+
+/usr/include/libxml2/libxml/SAX.h:
+
+/usr/include/libxml2/libxml/xlink.h:
+
+/usr/include/libxml2/libxml/SAX2.h:
+
+../src/util/viralloc.h:
+
+../src/util/virerror.h:
+
+../src/util/virthread.h:

@@ -25,10 +25,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/fedora/language/"
 "de/)\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -1448,8 +1448,8 @@ msgstr "<address> 'devno' Attribut kann nicht analysiert werden"
 msgid ""
 "Invalid specification for virtio ccw address: cssid='%s' ssid='%s' devno='%s'"
 msgstr ""
-"Ungültige Spezifikation für virtio ccw Adresse: cssid='%s' ssid='%s' "
-"devno='%s'"
+"Ungültige Spezifikation für virtio ccw Adresse: cssid='%s' ssid='%s' devno='%"
+"s'"
 
 #: src/conf/domain_conf.c:3552
 msgid "Invalid partial specification for virtio ccw address"
@@ -3333,11 +3333,11 @@ msgstr "Ziel Einheiten-Adresstyp %s stimmt nicht mit der Quelle %s überein"
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
-"Ziel Einheiten PCI Adresse %04x:%02x:%02x.%02x stimmt nicht mit der Quelle "
-"%04x:%02x:%02x.%02x überein"
+"Ziel Einheiten PCI Adresse %04x:%02x:%02x.%02x stimmt nicht mit der Quelle %"
+"04x:%02x:%02x.%02x überein"
 
 #: src/conf/domain_conf.c:13313
 #, c-format
@@ -3351,8 +3351,8 @@ msgstr ""
 msgid ""
 "Target device virtio serial address %d:%d:%d does not match source %d:%d:%d"
 msgstr ""
-"Ziel Einheit virtio Serien Adresse %d:%d:%d stimmt nicht mit der Quelle %d:"
-"%d:%d überein"
+"Ziel Einheit virtio Serien Adresse %d:%d:%d stimmt nicht mit der Quelle %d:%"
+"d:%d überein"
 
 #: src/conf/domain_conf.c:13342
 #, c-format
@@ -4526,8 +4526,8 @@ msgstr "Fehlender IP und Host-Name in Netzwerk '%s' DNS HOST Satz"
 #, fuzzy, c-format
 msgid "missing required service attribute in DNS SRV record of network '%s'"
 msgstr ""
-"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk "
-"%s"
+"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk %"
+"s"
 
 #: src/conf/network_conf.c:963
 #, fuzzy, c-format
@@ -4539,8 +4539,8 @@ msgstr "Service Name '%s' im Netzwerk %s ist zu lang, Limit sind %d Bytes"
 msgid ""
 "invalid character in service attribute '%s' in DNS SRV record of network '%s'"
 msgstr ""
-"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk "
-"%s"
+"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk %"
+"s"
 
 #: src/conf/network_conf.c:979
 #, fuzzy, c-format
@@ -4553,8 +4553,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr ""
 "Ungültiger Protokoll-Attribut Wert '%s' in DNS-SRV-Datensatz vom Netzwerk %s"
 
@@ -4807,8 +4807,8 @@ msgstr ""
 #, c-format
 msgid "Bad netmask address '%s' in route definition of network '%s'"
 msgstr ""
-"Fehlerhafte Netzmasken-Adresse '%s' in der Route-Definition von Netzwerk "
-"'%s' angegeben"
+"Fehlerhafte Netzmasken-Adresse '%s' in der Route-Definition von Netzwerk '%"
+"s' angegeben"
 
 #: src/conf/network_conf.c:1493
 #, c-format
@@ -5230,8 +5230,8 @@ msgstr ""
 msgid ""
 "couldn't locate an existing dhcp host entry with \"mac='%s'\" in network '%s'"
 msgstr ""
-"konnte eine vorhandene DHCP-Host-Eintragung mit \"mac = '%s'\" in Netzwerk "
-"'%s 'nicht finden"
+"konnte eine vorhandene DHCP-Host-Eintragung mit \"mac = '%s'\" in Netzwerk '%"
+"s 'nicht finden"
 
 #: src/conf/network_conf.c:3513
 #, c-format
@@ -5292,8 +5292,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "konnte eine Schnittstellen-Eintragung im Netzwerk '%s' passend auf "
 "<interface dev='%s''> nicht finden "
@@ -5310,8 +5310,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "konnte eine Portgruppe Eintragung im Netzwerk '%s' passend auf <portgroup "
 "name='%s'> nicht finden "
@@ -7310,8 +7310,7 @@ msgstr ""
 #, c-format
 msgid "Volume name '%s' doesn't have expected format '<directory>/<file>'"
 msgstr ""
-"Datenträgername »%s« folgt nicht dem erwarteten Format »<Verzeichnis>/"
-"<Datei>«"
+"Datenträgername »%s« folgt nicht dem erwarteten Format »<Verzeichnis>/<Datei>«"
 
 #: src/esx/esx_storage_backend_vmfs.c:897
 #: src/esx/esx_storage_backend_vmfs.c:1123
@@ -7387,8 +7386,7 @@ msgstr ""
 msgid ""
 "Query parameter 'no_verify' has unexpected value '%s' (should be 0 or 1)"
 msgstr ""
-"Abfrageparameter »no_verify« hat unerwarteten Wert »%s« (sollte 0 oder 1 "
-"sein)"
+"Abfrageparameter »no_verify« hat unerwarteten Wert »%s« (sollte 0 oder 1 sein)"
 
 #: src/esx/esx_util.c:95
 #, c-format
@@ -7401,11 +7399,11 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
-"Abfrageparameter »proxy« enthält unerwarteten Typ »%s« (sollte (http|socks(|"
-"4|4a|5) sein)"
+"Abfrageparameter »proxy« enthält unerwarteten Typ »%s« (sollte (http|socks(|4|"
+"4a|5) sein)"
 
 #: src/esx/esx_util.c:135
 msgid "Query parameter 'proxy' doesn't contain a hostname"
@@ -7472,8 +7470,8 @@ msgstr ""
 msgid ""
 "curl_easy_getinfo(CURLINFO_REDIRECT_URL) returned an error: %s (%d) : %s"
 msgstr ""
-"curl_easy_getinfo(CURLINFO_REDIRECT_URL) gab einen Fehler zurück: %s (%d) : "
-"%s"
+"curl_easy_getinfo(CURLINFO_REDIRECT_URL) gab einen Fehler zurück: %s (%d) : %"
+"s"
 
 #: src/esx/esx_vi.c:289
 #, c-format
@@ -7915,8 +7913,8 @@ msgid ""
 "Pending question blocks virtual machine execution, question is '%s', no "
 "possible answers"
 msgstr ""
-"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist "
-"'%s', keine möglichen Antworten"
+"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist '%"
+"s', keine möglichen Antworten"
 
 #: src/esx/esx_vi.c:4265
 #, c-format
@@ -7924,8 +7922,8 @@ msgid ""
 "Pending question blocks virtual machine execution, question is '%s', "
 "possible answers are %s, but no default answer is specified"
 msgstr ""
-"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist "
-"'%s', mögliche Antworten sind %s, aber keine Standard-Antwort angegeben"
+"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist '%"
+"s', mögliche Antworten sind %s, aber keine Standard-Antwort angegeben"
 
 #: src/esx/esx_vi.c:4286
 #, c-format
@@ -7933,8 +7931,8 @@ msgid ""
 "Pending question blocks virtual machine execution, question is '%s', "
 "possible answers are %s"
 msgstr ""
-"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist "
-"'%s', mögliche Antworten sind %s"
+"Ausstehende Frage blockiert Ausführung der Virtuellen Maschine, Frage ist '%"
+"s', mögliche Antworten sind %s"
 
 #: src/esx/esx_vi.c:4401
 msgid ""
@@ -8640,8 +8638,8 @@ msgstr "Ungültiger versklavter Schnittstellenname '%s' für Bond '%s' gesehen"
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 "Konnte Schnittstellen-Information für '%s' nicht abrufen, die in '%s' "
 "Verbindung versklavt ist"
@@ -8675,8 +8673,8 @@ msgstr "Konnte Mitglieder der Bridge '%s' nicht erhalten"
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 "Konnte Schnittstellen-Information für '%s' nicht abrufen, welches ein "
 "Mitglied der Bridge '%s' ist"
@@ -8744,8 +8742,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "Fehlerhafte 'uri_aliases' Konfigurations-Eintragung '%s', Aliasse dürfen nur "
 "'a-Z, 0-9, _, -' enthalten"
@@ -11559,8 +11557,8 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Missing required 'service' attribute in SRV record of network '%s'"
 msgstr ""
-"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk "
-"%s"
+"Fehlendes erforderliches Service-Attribut in DNS-SRV-Datensatz vom Netzwerk %"
+"s"
 
 #: src/network/bridge_driver.c:944
 msgid "For IPv4, multiple DHCP definitions cannot be specified."
@@ -11573,8 +11571,8 @@ msgid ""
 "dhcp range or dhcp host specification. Version %d.%d or later is required."
 msgstr ""
 "Die Version von dnsmasq auf diesem Host (%d.%d) unterstützt nicht "
-"ausreichend den IPv6 DHCP-Bereich oder die DHCP-Host-Spezifikation. Version "
-"%d.%d oder höher ist erforderlich."
+"ausreichend den IPv6 DHCP-Bereich oder die DHCP-Host-Spezifikation. Version %"
+"d.%d oder höher ist erforderlich."
 
 #: src/network/bridge_driver.c:970
 msgid "For IPv6, multiple DHCP definitions cannot be specified."
@@ -11893,8 +11891,8 @@ msgid ""
 "Invalid use of 'floor' on interface with MAC address %s - network '%s' has "
 "no inbound QoS set"
 msgstr ""
-"Ungültige Verwendung von 'floor' auf der Schnittstelle mit der MAC-Adresse "
-"%s - Netzwerk '%s' hat kein eingehendes QoS Set"
+"Ungültige Verwendung von 'floor' auf der Schnittstelle mit der MAC-Adresse %"
+"s - Netzwerk '%s' hat kein eingehendes QoS Set"
 
 #: src/network/bridge_driver.c:4240
 #, c-format
@@ -12230,8 +12228,8 @@ msgstr ""
 #, c-format
 msgid "Buffer error when generating device name for device with sysname '%s'"
 msgstr ""
-"Buffer Fehler beim Generieren des Einheiten-Namens für Einheit mit sysname "
-"'%s'"
+"Buffer Fehler beim Generieren des Einheiten-Namens für Einheit mit sysname '%"
+"s'"
 
 #: src/node_device/node_device_udev.c:687
 #, c-format
@@ -12727,8 +12725,7 @@ msgstr "Einige Regeln konnten nicht erstellt werden."
 #, c-format
 msgid "To enable ip%stables filtering for the VM do 'echo 1 > %s'"
 msgstr ""
-"Um ip%stables-Filterung für die VM zu aktivieren, führen Sie »echo 1 > %s« "
-"aus"
+"Um ip%stables-Filterung für die VM zu aktivieren, führen Sie »echo 1 > %s« aus"
 
 #: src/nwfilter/nwfilter_ebiptables_driver.c:3950
 #, c-format
@@ -21908,8 +21905,8 @@ msgstr "Anlegen vom Datei-System vom Typ '%s' auf Einheit '%s' fehlgeschlagen"
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 "mkfs wird auf dieser Plattform nicht unterstützt: Anlegen Datei-System vom "
 "Typ '%s' auf Einheit '%s' fehlgeschlagen"
@@ -22192,8 +22189,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 "konnte den Wert des Secret für Benutzername %s mit Verwendungs-Wert '%s' "
 "nicht erhalten"
@@ -24859,16 +24856,16 @@ msgstr ""
 msgid ""
 "attempt to merge virtualports with mismatched typeidversions (%d and %d)"
 msgstr ""
-"Versuch virtualports mit nicht übereinstimmenden Typ-iD-Versionen (%d und "
-"%d) zusammenzuführen"
+"Versuch virtualports mit nicht übereinstimmenden Typ-iD-Versionen (%d und %"
+"d) zusammenzuführen"
 
 #: src/util/virnetdevvportprofile.c:344
 #, c-format
 msgid ""
 "attempt to merge virtualports with mismatched instanceids ('%s' and '%s')"
 msgstr ""
-"Versuch virtualports mit nicht übereinstimmenden Instance-IDs ('%s' und "
-"'%s') zusammenzuführen"
+"Versuch virtualports mit nicht übereinstimmenden Instance-IDs ('%s' und '%"
+"s') zusammenzuführen"
 
 #: src/util/virnetdevvportprofile.c:364
 #, c-format
@@ -27776,8 +27773,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 "Erwartete VMX Eintragung '%s' sollte 'generated' oder 'static' oder 'vpx' "
 "sin, fand aber '%s'"
@@ -27841,8 +27838,8 @@ msgstr "Parallel Port index %d außerhalb dem [0..2] Bereich"
 #, c-format
 msgid "Expecting VMX entry '%s' to be 'device' or 'file' but found '%s'"
 msgstr ""
-"Erwartete VMX Eintragung '%s' sollte 'device' oder 'file' sein, fand aber "
-"'%s'"
+"Erwartete VMX Eintragung '%s' sollte 'device' oder 'file' sein, fand aber '%"
+"s'"
 
 #: src/vmx/vmx.c:3043
 msgid "virVMXContext has no formatFileName function set"
@@ -27884,8 +27881,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 "Erwartet dass in Domain XML Attribut 'cpuset' die Eintragung 'vcput' "
 "zumindest %d CPU(s) enthält"
@@ -28003,8 +28000,8 @@ msgid ""
 "invalid path, device names must be in the range sda[1-15] - sdiv[1-15] for "
 "domain %d"
 msgstr ""
-"Ungültiger Pfad, Einheiten-Namen müssen im Bereich von sda[1-15] - "
-"sdiv[1-15] für Domain %d liegen"
+"Ungültiger Pfad, Einheiten-Namen müssen im Bereich von sda[1-15] - sdiv[1-"
+"15] für Domain %d liegen"
 
 #: src/xen/block_stats.c:340
 #, c-format
@@ -28021,8 +28018,8 @@ msgid ""
 "invalid path, device names must be in the range xvda[1-15] - xvdiz[1-15] for "
 "domain %d"
 msgstr ""
-"Ungültiger Pfad, Einheiten-Namen müssen im Bereich von xvda[1-15] - "
-"xvdiz[1-15] für Domain %d liegen"
+"Ungültiger Pfad, Einheiten-Namen müssen im Bereich von xvda[1-15] - xvdiz[1-"
+"15] für Domain %d liegen"
 
 #: src/xen/block_stats.c:348
 #, c-format
@@ -28097,8 +28094,8 @@ msgstr ""
 #, c-format
 msgid "Credit scheduler cap parameter (%d) is out of range (0-65534)"
 msgstr ""
-"Cap-Parameter (%d) des Credit-Schedulers liegt ausserhalb dem Bereich "
-"(0-65534)"
+"Cap-Parameter (%d) des Credit-Schedulers liegt ausserhalb dem Bereich (0-"
+"65534)"
 
 #: src/xen/xen_hypervisor.c:1439
 msgid "block statistics not supported on this platform"
@@ -34604,8 +34601,8 @@ msgstr "Bestehende Einheit %s ist bereits eine Bridge"
 #, c-format
 msgid "Interface name from config %s doesn't match given supplied name %s"
 msgstr ""
-"Schnittstellenname von Konfiguration %s stimmt nicht mit angegebenem Namen "
-"%s überein"
+"Schnittstellenname von Konfiguration %s stimmt nicht mit angegebenem Namen %"
+"s überein"
 
 #: tools/virsh-interface.c:885
 msgid "Failed to create bridge node in xml document"

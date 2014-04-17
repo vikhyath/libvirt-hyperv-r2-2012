@@ -27,10 +27,10 @@ msgstr ""
 "PO-Revision-Date: 2013-09-26 08:41+0000\n"
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: French <trans-fr@lists.fedoraproject.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -1734,8 +1734,8 @@ msgstr ""
 #: src/conf/domain_conf.c:5098
 msgid "'pool' and 'volume' must be specified together for 'pool' type source"
 msgstr ""
-"« pool » et « volume » doivent être spécifiés ensemble pour la source du "
-"type de « pool »"
+"« pool » et « volume » doivent être spécifiés ensemble pour la source du type "
+"de « pool »"
 
 #: src/conf/domain_conf.c:5106
 #, c-format
@@ -2178,8 +2178,7 @@ msgstr ""
 
 #: src/conf/domain_conf.c:6920
 msgid "No <source> 'address' attribute specified with socket interface"
-msgstr ""
-"Aucun attribut <source> « address » spécifié avec l'interface du socket"
+msgstr "Aucun attribut <source> « address » spécifié avec l'interface du socket"
 
 #: src/conf/domain_conf.c:6933
 msgid ""
@@ -3115,8 +3114,8 @@ msgstr ""
 #, c-format
 msgid "invalid value of state argument for HyperV Enlightenment feature '%s'"
 msgstr ""
-"valeur de l'argument de l'état de la fonctionnalité HyperV Enlightenment "
-"« %s » invalide"
+"valeur de l'argument de l'état de la fonctionnalité HyperV Enlightenment « %"
+"s » invalide"
 
 #: src/conf/domain_conf.c:11971
 msgid "invalid HyperV spinlock retry count"
@@ -3162,15 +3161,15 @@ msgstr "Pas d'option d'invité disponible pour l'architecture « %s »"
 #, c-format
 msgid "No os type '%s' available for arch '%s'"
 msgstr ""
-"Pas de type de système d'exploitation « %s » disponible pour l'architecture "
-"« %s »"
+"Pas de type de système d'exploitation « %s » disponible pour l'architecture « %"
+"s »"
 
 #: src/conf/domain_conf.c:12188 src/xenxs/xen_xm.c:301
 #, c-format
 msgid "no supported architecture for os type '%s'"
 msgstr ""
-"pas d'architecture prise en charge pour le type de système d'exploitation "
-"« %s »"
+"pas d'architecture prise en charge pour le type de système d'exploitation « %"
+"s »"
 
 #: src/conf/domain_conf.c:12227
 msgid "No data supplied for <initarg> element"
@@ -3339,14 +3338,14 @@ msgstr "Le mode TSC cible %s ne correspond pas à la source %s"
 #, c-format
 msgid "Target device address type %s does not match source %s"
 msgstr ""
-"Le type de l'adresse du périphérique cible %s ne correspond pas à la source "
-"%s"
+"Le type de l'adresse du périphérique cible %s ne correspond pas à la source %"
+"s"
 
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "L'adresse PCI du périphérique cible %04x:%02x:%02x.%02x ne correspond pas à "
 "la source %04x:%02x:%02x.%02x"
@@ -3370,15 +3369,15 @@ msgstr ""
 #, c-format
 msgid "Target device ccid address %d:%d does not match source %d:%d"
 msgstr ""
-"L'adresse ccid du périphérique cible %d:%d ne correspond pas à la source %d:"
-"%d"
+"L'adresse ccid du périphérique cible %d:%d ne correspond pas à la source %d:%"
+"d"
 
 #: src/conf/domain_conf.c:13356
 #, fuzzy, c-format
 msgid "Target device isa address %d:%d does not match source %d:%d"
 msgstr ""
-"L'adresse ccid du périphérique cible %d:%d ne correspond pas à la source %d:"
-"%d"
+"L'adresse ccid du périphérique cible %d:%d ne correspond pas à la source %d:%"
+"d"
 
 #: src/conf/domain_conf.c:13377
 #, c-format
@@ -3510,8 +3509,8 @@ msgstr "Le mode du périphérique hôte cible %s ne correspond pas à la source 
 #, c-format
 msgid "Target host device subsystem %s does not match source %s"
 msgstr ""
-"Le sous-système du périphérique hôte cible %s ne correspond pas à la source "
-"%s"
+"Le sous-système du périphérique hôte cible %s ne correspond pas à la source %"
+"s"
 
 #: src/conf/domain_conf.c:13675
 #, c-format
@@ -4519,8 +4518,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr ""
 
 #: src/conf/network_conf.c:1000
@@ -5154,8 +5153,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 
 #: src/conf/network_conf.c:3735
@@ -5168,8 +5167,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 
 #: src/conf/network_conf.c:3810
@@ -7167,8 +7166,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 
 #: src/esx/esx_util.c:135
@@ -8362,8 +8361,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:876
@@ -8394,8 +8393,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:975
@@ -8457,8 +8456,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 
 #: src/libvirt.c:1021
@@ -21057,8 +21056,8 @@ msgstr ""
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 
 #: src/storage/storage_backend_fs.c:699
@@ -21330,8 +21329,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26769,8 +26768,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 
 #: src/vmx/vmx.c:2578
@@ -26862,8 +26861,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 
 #: src/vmx/vmx.c:3228
@@ -27058,8 +27057,8 @@ msgstr ""
 #, c-format
 msgid "Credit scheduler weight parameter (%d) is out of range (1-65535)"
 msgstr ""
-"Le paramètre « poids » (%d) du planificateur à répartition de charge est "
-"hors limites (1-65535)"
+"Le paramètre « poids » (%d) du planificateur à répartition de charge est hors "
+"limites (1-65535)"
 
 #: src/xen/xen_hypervisor.c:1397
 #, c-format
@@ -35774,8 +35773,8 @@ msgstr ""
 
 #~ msgid "Target domain features %d does not match source %d"
 #~ msgstr ""
-#~ "Les fonctionnalités du domaine cible %d ne correspondent pas à la source "
-#~ "%d"
+#~ "Les fonctionnalités du domaine cible %d ne correspondent pas à la source %"
+#~ "d"
 
 #~ msgid "domain is already active as '%s'"
 #~ msgstr "Le domaine est déjà actif en tant que « %s »"
