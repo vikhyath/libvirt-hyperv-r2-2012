@@ -19,10 +19,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Assamese (http://www.transifex.com/projects/p/fedora/language/"
 "as/)\n"
-"Language: as\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: as\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3312,8 +3312,8 @@ msgstr "লক্ষ্য ডিভাইচ ঠিকনা ধৰণ %s উ�
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "লক্ষ্য ডিভাইচ PCI ঠিকনা %04x:%02x:%02x.%02x উৎস %04x:%02x:%02x.%02x ৰ সৈতে মিল "
 "নাখায়"
@@ -4478,8 +4478,8 @@ msgstr "নেটৱাৰ্ক %s ৰ dns srv ৰেকৰ্ড '%s' ত প�
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "নেটৱাৰ্ক %s ৰ DNS SRV ত অবৈধ প্ৰটোকল বৈশিষ্ট্য মান '%s'"
 
 #: src/conf/network_conf.c:1000
@@ -4789,8 +4789,8 @@ msgid ""
 "The <nat> element can only be used when <forward> 'mode' is 'nat' in network "
 "%s"
 msgstr ""
-"<nat> উপাদান কেৱল তেতিয়াহে ব্যৱহাৰ কৰিব পাৰি যেতিয়া <forward> 'mode' নেটৱাৰ্ক "
-"%s ত 'nat'"
+"<nat> উপাদান কেৱল তেতিয়াহে ব্যৱহাৰ কৰিব পাৰি যেতিয়া <forward> 'mode' নেটৱাৰ্ক %"
+"s ত 'nat'"
 
 #: src/conf/network_conf.c:1682 src/conf/network_conf.c:1827
 #, c-format
@@ -4987,8 +4987,8 @@ msgid ""
 "bridge delay/stp options only allowed in route, nat, and isolated mode, not "
 "in %s (network '%s')"
 msgstr ""
-"ব্ৰিজ বিলম্ব/stp বিকল্পসমূহ কেৱল ৰুট, নেট, আৰু সূকীয়া অৱস্থাত অনুমোদিত, %s (নেটৱাৰ্ক "
-"'%s') ত নহয়"
+"ব্ৰিজ বিলম্ব/stp বিকল্পসমূহ কেৱল ৰুট, নেট, আৰু সূকীয়া অৱস্থাত অনুমোদিত, %s (নেটৱাৰ্ক '%"
+"s') ত নহয়"
 
 #: src/conf/network_conf.c:2270
 #, c-format
@@ -5147,8 +5147,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "নেটৱাৰ্ক '%s' ত <interface dev='%s'> ৰ সৈতে মিল খোৱা এটা আন্তঃপৃষ্ঠ প্ৰৱিষ্টি পোৱা "
 "নগল"
@@ -5165,8 +5165,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "নেটৱাৰ্ক '%s' ত <portgroup name='%s'> ৰ সৈতে মিল খোৱা এটা পোৰ্টগ্ৰুপ প্ৰৱিষ্টি "
 "পোৱা নগল"
@@ -7192,8 +7192,8 @@ msgstr "প্ৰশ্নৰ প্ৰাচল 'auto_answer' ৰ অপ্ৰ�
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "প্ৰশ্নৰ প্ৰাচল 'proxy' এ অপ্ৰত্যাশিত ধৰণ '%s' অন্তৰ্ভুক্ত কৰে ((http|socks(|4|4a|5) "
 "হব লাগে)"
@@ -8405,8 +8405,8 @@ msgstr "বান্ধনী '%s' ৰ বাবে অবৈধ এনস্ল
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr "'%s' ৰ বাবে আন্তঃপৃষ্ঠ তথ্য প্ৰাপ্ত কৰিব পৰা নগল, যি বান্ধনী '%s' ত বান্ধীত"
 
 #: src/interface/interface_backend_udev.c:876
@@ -8437,8 +8437,8 @@ msgstr "ব্ৰিজ '%s' ৰ সদস্যসমূহ প্ৰাপ্�
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr "'%s' ৰ বাবে আন্তঃপৃষ্ঠ তথ্য প্ৰাপ্ত কৰিব পৰা নগল, যি ব্ৰিজ '%s' ৰ এটা সদস্য"
 
 #: src/interface/interface_backend_udev.c:975
@@ -8502,8 +8502,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "ক্ষতিগ্ৰস্থ 'uri_aliases' সংৰূপ প্ৰৱিষ্টি '%s', এলিয়াচসমূহে অন্তৰ্ভুক্ত কৰিব পাৰে 'a-Z, "
 "0-9, _, -'"
@@ -21343,8 +21343,8 @@ msgstr "ডিভাইচ '%s' ত ধৰণ '%s' ৰ ফাইলচিস্�
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 "mkfs এই প্লেটফৰ্মত সমৰ্থিত নহয়: ডিভাইচ '%s' ত ধৰণ '%s' ৰ ফাইলচিস্টেম নিৰ্মাণ "
 "কৰিবলে ব্যৰ্থ"
@@ -21622,8 +21622,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 "ব্যৱহাৰ মান '%s' ব্যৱহাৰ কৰা ব্যৱহাৰকাৰীনাম '%s' ৰ বাবে গোপনৰ মান প্ৰাপ্ত কৰিব "
 "পৰা নগল"
@@ -27120,8 +27120,8 @@ msgstr "VMX প্ৰৱিষ্টি '%s' ক MAC ঠিকনা হবল�
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 "VMX প্ৰৱিষ্টি '%s' ক 'generated' অথবা 'static' অথবা 'vpx' হবলে আশা কৰা হৈছিল "
 "কিন্তু প্ৰাপ্ত হল '%s'"
@@ -27226,8 +27226,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 "প্ৰৱিষ্টি 'vcpu' ৰ ডমেইন XML বৈশিষ্ট্য 'cpuset' ক অন্তত %d CPU(s) অন্তৰ্ভুক্ত কৰিবলে "
 "আশা কৰা হৈছে"

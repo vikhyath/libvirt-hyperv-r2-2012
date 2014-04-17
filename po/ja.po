@@ -24,10 +24,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/fedora/language/"
 "ja/)\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3344,11 +3344,11 @@ msgstr "ターゲットのデバイスアドレス形式 %s がソースの %s �
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
-"ターゲットデバイスの PCI アドレス %04x:%02x:%02x.%02x がソースの %04x:%02x:"
-"%02x.%02x と一致しません"
+"ターゲットデバイスの PCI アドレス %04x:%02x:%02x.%02x がソースの %04x:%02x:%"
+"02x.%02x と一致しません"
 
 #: src/conf/domain_conf.c:13313
 #, c-format
@@ -4540,8 +4540,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr ""
 
 #: src/conf/network_conf.c:1000
@@ -5273,8 +5273,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "ネットワーク '%s' に <interface dev='%s'> と一致する、インターフェース項目を"
 "見つけられません"
@@ -5291,8 +5291,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "ネットワーク '%s' において <portgroup name='%s'> と一致するポートグループのエ"
 "ントリーを見つけられませんでした"
@@ -7110,8 +7110,8 @@ msgstr ""
 #, c-format
 msgid "Could not migrate domain, validation reported a problem: %s"
 msgstr ""
-"ドメインをマイグレーションできませんでした、検証により問題が報告されました: "
-"%s"
+"ドメインをマイグレーションできませんでした、検証により問題が報告されました: %"
+"s"
 
 #: src/esx/esx_driver.c:3952
 msgid "Could not migrate domain, validation reported a problem"
@@ -7377,8 +7377,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "問い合わせパラメーター 'proxy' が予期しない形式 '%s' を含んでいます ((http|"
 "socks(|4|4a|5) であるべきです)"
@@ -8226,8 +8226,8 @@ msgstr "%s 中に応答がありませんでした"
 #, c-format
 msgid "SOAP fault during %s: code '%s', subcode '%s', reason '%s', detail '%s'"
 msgstr ""
-"%s 中に SOAP が失敗しました: コード '%s', サブコード '%s', 理由 '%s', 詳細 "
-"'%s'"
+"%s 中に SOAP が失敗しました: コード '%s', サブコード '%s', 理由 '%s', 詳細 '%"
+"s'"
 
 #: src/hyperv/hyperv_wmi.c:142 src/hyperv/hyperv_wmi.c:420
 msgid "Could not initialize options"
@@ -8609,8 +8609,8 @@ msgstr "無効なスレーブ・インターフェース名 '%s' がボンド '%
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 "'%s' 向けのインターフェース情報を取得できませんでした、これはボンド '%s' のス"
 "レーブになっています"
@@ -8645,8 +8645,8 @@ msgstr "ブリッジ '%s' のメンバーを取得できませんでした"
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 "'%s' 向けのインターフェース情報を取得できませんでした、これはブリッジ '%s' の"
 "メンバーになっています"
@@ -8713,8 +8713,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "不正な形式の 'uri_aliases' 設定エントリー '%s' です、エイリアスは 'a-Z, 0-9, "
 "_, -' のみを含められます"
@@ -15894,8 +15894,8 @@ msgstr ""
 #, c-format
 msgid "Failed to open snapshot directory %s for domain %s: %s"
 msgstr ""
-"スナップショットのディレクトリー %s をドメイン %s に対して開けませんでした: "
-"%s"
+"スナップショットのディレクトリー %s をドメイン %s に対して開けませんでした: %"
+"s"
 
 #: src/qemu/qemu_driver.c:451
 msgid "Failed to allocate memory for path"
@@ -19140,8 +19140,8 @@ msgid ""
 "Unable to locate libvirtd daemon in %s (to override, set $LIBVIRTD_PATH to "
 "the name of the libvirtd binary)"
 msgstr ""
-"%s にある libvirtd デーモンの位置を決められません (上書きするに"
-"は、$LIBVIRTD_PATH に libvirtd バイナリーの名前を設定します)"
+"%s にある libvirtd デーモンの位置を決められません (上書きするには、"
+"$LIBVIRTD_PATH に libvirtd バイナリーの名前を設定します)"
 
 #: src/remote/remote_driver.c:914
 msgid ""
@@ -21725,8 +21725,8 @@ msgstr "'%s' 形式のファイルシステムをデバイス '%s' において�
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 "mkfs はこのプラットフォームにおいてサポートされません: '%s' 形式のファイルシ"
 "ステムをデバイス '%s' に作成できませんでした"
@@ -22002,8 +22002,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26344,8 +26344,8 @@ msgstr "パラメーター '%s' が文字列ではありません"
 #, c-format
 msgid "Invalid type '%s' requested for parameter '%s', actual type is '%s'"
 msgstr ""
-"無効な形式 '%s' がパラメーター '%s' に対して要求されました、実際の形式は "
-"'%s' です"
+"無効な形式 '%s' がパラメーター '%s' に対して要求されました、実際の形式は '%"
+"s' です"
 
 #: src/util/virtypedparam.c:725
 #, c-format
@@ -26850,8 +26850,8 @@ msgstr "CD-ROM にファイルを接続できませんでした: %s, rc=%08x"
 #, c-format
 msgid "can't get the uuid of the file to be attached as harddisk: %s, rc=%08x"
 msgstr ""
-"ハードディスクとして接続するファイルの UUID を取得できませんでした: %s, rc="
-"%08x"
+"ハードディスクとして接続するファイルの UUID を取得できませんでした: %s, rc=%"
+"08x"
 
 #: src/vbox/vbox_tmpl.c:4055
 #, c-format
@@ -26863,8 +26863,8 @@ msgstr "ハードディスクとしてファイルを接続できませんでし
 msgid ""
 "can't get the uuid of the file to be attached to floppy drive: %s, rc=%08x"
 msgstr ""
-"フロッピードライブに接続するファイルの UUID を取得できませんでした: %s, rc="
-"%08x"
+"フロッピードライブに接続するファイルの UUID を取得できませんでした: %s, rc=%"
+"08x"
 
 #: src/vbox/vbox_tmpl.c:4108 src/vbox/vbox_tmpl.c:5621
 #, c-format
@@ -26876,8 +26876,8 @@ msgstr "フロッピードライブにファイルを接続できませんでし
 msgid ""
 "Failed to attach the following disk/dvd/floppy to the machine: %s, rc=%08x"
 msgstr ""
-"以下のハードディスク/DVD/フロッピーをマシンに接続できませんでした: %s, rc="
-"%08x"
+"以下のハードディスク/DVD/フロッピーをマシンに接続できませんでした: %s, rc=%"
+"08x"
 
 #: src/vbox/vbox_tmpl.c:4306
 #, c-format
@@ -26901,8 +26901,8 @@ msgstr ""
 #, c-format
 msgid "could not attach the file as harddisk/dvd/floppy: %s, rc=%08x"
 msgstr ""
-"ハードディスク/DVD/フロッピーとしてファイルを接続できませんでした: %s, rc="
-"%08x"
+"ハードディスク/DVD/フロッピーとしてファイルを接続できませんでした: %s, rc=%"
+"08x"
 
 #: src/vbox/vbox_tmpl.c:5193 src/vbox/vbox_tmpl.c:5264
 #, c-format
@@ -27553,8 +27553,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 "VMX エントリー '%s' は 'generated', 'static' または 'vpx' が期待されます"
 "が、'%s' が見つかりました"
@@ -27660,8 +27660,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 "ドメイン XML のエントリー 'vcpu' の属性 'cpuset' は少なくとも %d 個の CPU を"
 "含むことが期待されます"

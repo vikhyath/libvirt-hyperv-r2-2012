@@ -893,9 +893,6 @@ hypervDomainGetXMLDesc(virDomainPtr domain, unsigned int flags)
     if (VIR_STRDUP(def->name, computerSystem->data->ElementName) < 0)
         goto cleanup;
 
-    if (VIR_STRDUP(def->description, virtualSystemSettingData->data->Notes) < 0)
-        goto cleanup;
-
     def->mem.max_balloon = memorySettingData->data->Limit * 1024; /* megabyte to kilobyte */
     def->mem.cur_balloon = memorySettingData->data->VirtualQuantity * 1024; /* megabyte to kilobyte */
 

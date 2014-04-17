@@ -71,7 +71,7 @@ class Class:
         if self.name.startswith("Win32_"):
             header += "    \"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/%s\"\n" % self.name
         else:
-            header += "    \"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/%s\"\n" % self.name
+            header += "    \"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/%s\"\n" % self.name
 
         header += "\n"
         header += "#define %s_CLASSNAME \\\n" % name_upper

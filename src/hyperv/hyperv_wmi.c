@@ -39,7 +39,7 @@
     "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/*"
 
 #define ROOT_VIRTUALIZATION \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/*"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/*"
 
 #define VIR_FROM_THIS VIR_FROM_HYPERV
 

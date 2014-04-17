@@ -19,10 +19,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/fedora/language/"
 "ko/)\n"
-"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3271,8 +3271,8 @@ msgstr "대상 장치 주소 유형 %s은 소스 %s와 일치하지 않음 "
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "대상 장치 PCI 주소 %04x:%02x:%02x.%02x는 소스  %04x:%02x:%02x.%02x와 일치하"
 "지 않음"
@@ -4440,8 +4440,8 @@ msgstr ""
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "네트워크 %s의 DNS SRV 기록에서 잘못된 프로토콜 속성 값 '%s'"
 
 #: src/conf/network_conf.c:1000
@@ -5150,8 +5150,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "네트워크 '%s'에서 <interface dev='%s'>와 일치하는 인터페이스 항목을 찾을 수 "
 "없습니다 "
@@ -5168,8 +5168,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "네트워크 '%s'에서 <portgroup name='%s'>과 일치하는 포트그룹 항목을 찾을 수 없"
 "습니다 "
@@ -6834,8 +6834,8 @@ msgid ""
 "Requested number of virtual CPUs is greater than max allowable number of "
 "virtual CPUs for the domain: %d > %d"
 msgstr ""
-"요청된 가상 CPU 수는 도메인의 가상 CPU에 최대 할당 가능한 수를 초과합니다: "
-"%d > %d"
+"요청된 가상 CPU 수는 도메인의 가상 CPU에 최대 할당 가능한 수를 초과합니다: %"
+"d > %d"
 
 #: src/esx/esx_driver.c:2567
 #, c-format
@@ -7220,8 +7220,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "쿼리 매개 변수 'proxy'에 예상치 않는 값 '%s'이 있습니다 ((http|socks(|4|4a|5)"
 "이어야 함)"
@@ -8431,8 +8431,8 @@ msgstr ""
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr ""
 
 #: src/interface/interface_backend_udev.c:876
@@ -8465,8 +8465,8 @@ msgstr "브리지 '%s'의 멤버를 구할 수 없습니다 "
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr ""
 "'%s'의 인터페이스 정보를 구할 수 없습니다, 이는 브리지 '%s'의 멤버입니다 "
 
@@ -8529,8 +8529,8 @@ msgstr ""
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 
 #: src/libvirt.c:1021
@@ -21118,8 +21118,8 @@ msgstr ""
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 
 #: src/storage/storage_backend_fs.c:699
@@ -21392,8 +21392,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26830,8 +26830,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 
 #: src/vmx/vmx.c:2578
@@ -26923,8 +26923,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 
 #: src/vmx/vmx.c:3228

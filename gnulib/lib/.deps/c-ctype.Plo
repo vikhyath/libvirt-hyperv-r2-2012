@@ -1,0 +1,10 @@
+c-ctype.lo: c-ctype.c ../../config.h ../../config-post.h c-ctype.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h
+
+../../config.h:
+
+../../config-post.h:
+
+c-ctype.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h:

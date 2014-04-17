@@ -1,0 +1,7 @@
+sockets.lo: sockets.c ../../config.h ../../config-post.h sockets.h
+
+../../config.h:
+
+../../config-post.h:
+
+sockets.h:

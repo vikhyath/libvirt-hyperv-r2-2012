@@ -1,0 +1,9 @@
+/usr/local/var/log/libvirt/qemu/*.log {
+        weekly
+        missingok
+        rotate 4
+        compress
+        delaycompress
+        copytruncate
+        minsize 100k
+}

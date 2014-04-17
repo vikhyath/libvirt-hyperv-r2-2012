@@ -24,10 +24,10 @@ msgstr ""
 "Last-Translator: Daniel <veillard@redhat.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/projects/p/fedora/language/"
 "hi/)\n"
-"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: daemon/libvirtd-config.c:60 daemon/libvirtd-config.c:79
@@ -3272,8 +3272,8 @@ msgstr "लक्ष्य युक्ति पता प्रकार %s �
 #: src/conf/domain_conf.c:13298
 #, c-format
 msgid ""
-"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:"
-"%02x:%02x.%02x"
+"Target device PCI address %04x:%02x:%02x.%02x does not match source %04x:%"
+"02x:%02x.%02x"
 msgstr ""
 "लक्ष्य युक्ति PCI पता %04x:%02x:%02x.%02x का मेल स्रोत %04x:%02x:%02x.%02x से नहीं है"
 
@@ -4432,8 +4432,8 @@ msgstr "संजाल %s के DNS SRV रिकॉर्ड '%s' में �
 #: src/conf/network_conf.c:987
 #, fuzzy, c-format
 msgid ""
-"invalid character in protocol attribute '%s' in DNS SRV record of network "
-"'%s'"
+"invalid character in protocol attribute '%s' in DNS SRV record of network '%"
+"s'"
 msgstr "अवैध प्रोटोकॉल विशेषता मान '%s' संजाल %s के लिए DNS SRV रिकॉर्ड में"
 
 #: src/conf/network_conf.c:1000
@@ -4929,8 +4929,8 @@ msgid ""
 "bridge delay/stp options only allowed in route, nat, and isolated mode, not "
 "in %s (network '%s')"
 msgstr ""
-"ब्रिज delay/stp विकल्पों केवल मार्ग, nat और पृथक मोड में स्वीकार्य है ,कोई %s (संजाल "
-"'%s') में नहीं "
+"ब्रिज delay/stp विकल्पों केवल मार्ग, nat और पृथक मोड में स्वीकार्य है ,कोई %s (संजाल '%"
+"s') में नहीं "
 
 #: src/conf/network_conf.c:2270
 #, c-format
@@ -5087,8 +5087,8 @@ msgstr ""
 #: src/conf/network_conf.c:3726
 #, c-format
 msgid ""
-"couldn't find an interface entry in network '%s' matching <interface "
-"dev='%s'>"
+"couldn't find an interface entry in network '%s' matching <interface dev='%"
+"s'>"
 msgstr ""
 "संजाल '% s' के मिलान <interface dev='%s'> में एक अंतरफलक प्रवेश नहीं मिल सकता है"
 
@@ -5104,8 +5104,8 @@ msgstr ""
 #: src/conf/network_conf.c:3802
 #, c-format
 msgid ""
-"couldn't find a portgroup entry in network '%s' matching <portgroup "
-"name='%s'>"
+"couldn't find a portgroup entry in network '%s' matching <portgroup name='%"
+"s'>"
 msgstr ""
 "संजाल '%s' के मिलान <portgroup name='%s'> में एक portgroup प्रवेश नहीं मिल सकता है"
 
@@ -6666,8 +6666,8 @@ msgid ""
 "This host is managed by a vCenter with IP address %s, but a mismachting "
 "vCenter '%s' (%s) has been specified"
 msgstr ""
-"यह होस्ट IP पता %s के साथ vCenter द्वारा प्रबंधित है , लेकिन मिसमैचिंग vCenter "
-"'%s' (%s) निर्दिष्ट किया गया है"
+"यह होस्ट IP पता %s के साथ vCenter द्वारा प्रबंधित है , लेकिन मिसमैचिंग vCenter '%s' (%"
+"s) निर्दिष्ट किया गया है"
 
 #: src/esx/esx_driver.c:1189 src/vbox/vbox_MSCOMGlue.c:438
 #, c-format
@@ -7132,8 +7132,8 @@ msgstr ""
 #: src/esx/esx_util.c:121
 #, c-format
 msgid ""
-"Query parameter 'proxy' contains unexpected type '%s' (should be (http|"
-"socks(|4|4a|5))"
+"Query parameter 'proxy' contains unexpected type '%s' (should be (http|socks"
+"(|4|4a|5))"
 msgstr ""
 "क्वेरी पैरामीटर 'proxy' का अप्रत्याशित मान '%s' ((http|socks(|4|4a|5) होना चाहिए) "
 "है "
@@ -8334,8 +8334,8 @@ msgstr "अवैध गुलाम अंतरफलक नाम '%s' बॉ
 #: src/interface/interface_backend_udev.c:834
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a enslaved in bond "
-"'%s'"
+"Could not get interface information for '%s', which is a enslaved in bond '%"
+"s'"
 msgstr "'%s' बॉन्ड '%s' में एक गुलाम है जिसके लिए अंतरफलक जानकारी नहीं मिल सकी."
 
 #: src/interface/interface_backend_udev.c:876
@@ -8366,8 +8366,8 @@ msgstr "पुल '%s' के सदस्यों को नहीं मि�
 #: src/interface/interface_backend_udev.c:941
 #, c-format
 msgid ""
-"Could not get interface information for '%s', which is a member of bridge "
-"'%s'"
+"Could not get interface information for '%s', which is a member of bridge '%"
+"s'"
 msgstr "'%s' पुल '%s' का एक सदस्य है, जिसके लिए अंतरफलक जानकारी नहीं मिल सकी."
 
 #: src/interface/interface_backend_udev.c:975
@@ -8429,8 +8429,8 @@ msgstr "विरूपित  'uri_aliases' config इंट्री '%s', अ
 #: src/libvirt.c:969
 #, c-format
 msgid ""
-"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, "
-"0-9, _, -'"
+"Malformed 'uri_aliases' config entry '%s', aliases may only contain 'a-Z, 0-"
+"9, _, -'"
 msgstr ""
 "विरूपित  'uri_aliases' config इंट्री '%s', aliases में केवल  'a-Z, 0-9, _, -' "
 "समाहित है "
@@ -21092,8 +21092,8 @@ msgstr ""
 #: src/storage/storage_backend_fs.c:681
 #, c-format
 msgid ""
-"mkfs is not supported on this platform: Failed to make filesystem of type "
-"'%s' on device '%s'"
+"mkfs is not supported on this platform: Failed to make filesystem of type '%"
+"s' on device '%s'"
 msgstr ""
 
 #: src/storage/storage_backend_fs.c:699
@@ -21364,8 +21364,8 @@ msgstr ""
 #: src/storage/storage_backend_rbd.c:123
 #, c-format
 msgid ""
-"could not get the value of the secret for username '%s' using usage value "
-"'%s'"
+"could not get the value of the secret for username '%s' using usage value '%"
+"s'"
 msgstr ""
 
 #: src/storage/storage_backend_rbd.c:137
@@ -26790,8 +26790,8 @@ msgstr ""
 #: src/vmx/vmx.c:2561
 #, c-format
 msgid ""
-"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found "
-"'%s'"
+"Expecting VMX entry '%s' to be 'generated' or 'static' or 'vpx' but found '%"
+"s'"
 msgstr ""
 
 #: src/vmx/vmx.c:2578
@@ -26883,8 +26883,8 @@ msgstr ""
 #: src/vmx/vmx.c:3181
 #, c-format
 msgid ""
-"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least "
-"%d CPU(s)"
+"Expecting domain XML attribute 'cpuset' of entry 'vcpu' to contain at least %"
+"d CPU(s)"
 msgstr ""
 
 #: src/vmx/vmx.c:3228
