@@ -7,7 +7,7 @@
  */
 
 #define MSVM_COMPUTERSYSTEM_RESOURCE_URI \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/Msvm_ComputerSystem"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/Msvm_ComputerSystem"
 
 #define MSVM_COMPUTERSYSTEM_CLASSNAME \
     "Msvm_ComputerSystem"
@@ -62,7 +62,7 @@ struct _Msvm_ComputerSystem {
  */
 
 #define MSVM_CONCRETEJOB_RESOURCE_URI \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/Msvm_ConcreteJob"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/Msvm_ConcreteJob"
 
 #define MSVM_CONCRETEJOB_CLASSNAME \
     "Msvm_ConcreteJob"
@@ -124,7 +124,7 @@ struct _Msvm_ConcreteJob {
  */
 
 #define MSVM_MEMORYSETTINGDATA_RESOURCE_URI \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/Msvm_MemorySettingData"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/Msvm_MemorySettingData"
 
 #define MSVM_MEMORYSETTINGDATA_CLASSNAME \
     "Msvm_MemorySettingData"
@@ -133,9 +133,9 @@ struct _Msvm_ConcreteJob {
     "select * from Msvm_MemorySettingData "
 
 struct _Msvm_MemorySettingData_Data {
+    XML_TYPE_STR InstanceID;
     XML_TYPE_STR Caption;
     XML_TYPE_STR Description;
-    XML_TYPE_STR InstanceID;
     XML_TYPE_STR ElementName;
     XML_TYPE_UINT16 ResourceType;
     XML_TYPE_STR OtherResourceType;
@@ -154,10 +154,13 @@ struct _Msvm_MemorySettingData_Data {
     XML_TYPE_DYN_ARRAY Connection;
     XML_TYPE_STR Address;
     XML_TYPE_UINT16 MappingBehavior;
-    XML_TYPE_BOOL IsVirtualized;
-    XML_TYPE_STR DeviceID;
-    XML_TYPE_STR DeviceIDFormat;
+    XML_TYPE_STR AddressOnParent;
+    XML_TYPE_STR VirtualQuantityUnits;
     XML_TYPE_BOOL DynamicMemoryEnabled;
+    XML_TYPE_UINT32 TargetMemoryBuffer;
+    XML_TYPE_BOOL IsVirtualized;
+    XML_TYPE_BOOL SwapFilesInUse;
+    XML_TYPE_UINT64 MaxMemoryBlocksPerNumaNode;
 };
 
 SER_DECLARE_TYPE(Msvm_MemorySettingData_Data);
@@ -175,7 +178,7 @@ struct _Msvm_MemorySettingData {
  */
 
 #define MSVM_PROCESSORSETTINGDATA_RESOURCE_URI \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/Msvm_ProcessorSettingData"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/Msvm_ProcessorSettingData"
 
 #define MSVM_PROCESSORSETTINGDATA_CLASSNAME \
     "Msvm_ProcessorSettingData"
@@ -184,9 +187,9 @@ struct _Msvm_MemorySettingData {
     "select * from Msvm_ProcessorSettingData "
 
 struct _Msvm_ProcessorSettingData_Data {
+    XML_TYPE_STR InstanceID;
     XML_TYPE_STR Caption;
     XML_TYPE_STR Description;
-    XML_TYPE_STR InstanceID;
     XML_TYPE_STR ElementName;
     XML_TYPE_UINT16 ResourceType;
     XML_TYPE_STR OtherResourceType;
@@ -205,14 +208,12 @@ struct _Msvm_ProcessorSettingData_Data {
     XML_TYPE_DYN_ARRAY Connection;
     XML_TYPE_STR Address;
     XML_TYPE_UINT16 MappingBehavior;
-    XML_TYPE_BOOL IsVirtualized;
-    XML_TYPE_STR DeviceID;
-    XML_TYPE_STR DeviceIDFormat;
-    XML_TYPE_UINT16 ProcessorsPerSocket;
-    XML_TYPE_UINT16 SocketCount;
-    XML_TYPE_BOOL ThreadsEnabled;
+    XML_TYPE_STR AddressOnParent;
+    XML_TYPE_STR VirtualQuantityUnits;
     XML_TYPE_BOOL LimitCPUID;
     XML_TYPE_BOOL LimitProcessorFeatures;
+    XML_TYPE_UINT64 MaxProcessorsPerNumaNode;
+    XML_TYPE_UINT64 MaxNumaNodesPerSocket;
 };
 
 SER_DECLARE_TYPE(Msvm_ProcessorSettingData_Data);
@@ -230,7 +231,7 @@ struct _Msvm_ProcessorSettingData {
  */
 
 #define MSVM_VIRTUALSYSTEMSETTINGDATA_RESOURCE_URI \
-    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/Msvm_VirtualSystemSettingData"
+    "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/virtualization/v2/Msvm_VirtualSystemSettingData"
 
 #define MSVM_VIRTUALSYSTEMSETTINGDATA_CLASSNAME \
     "Msvm_VirtualSystemSettingData"
@@ -239,17 +240,27 @@ struct _Msvm_ProcessorSettingData {
     "select * from Msvm_VirtualSystemSettingData "
 
 struct _Msvm_VirtualSystemSettingData_Data {
+    XML_TYPE_STR InstanceID;
     XML_TYPE_STR Caption;
     XML_TYPE_STR Description;
     XML_TYPE_STR ElementName;
-    XML_TYPE_STR InstanceID;
-    XML_TYPE_STR SystemName;
-    XML_TYPE_UINT16 SettingType;
-    XML_TYPE_UINT16 VirtualSystemType;
-    XML_TYPE_STR OtherVirtualSystemType;
-    XML_TYPE_BOOL AutoActivate;
+    XML_TYPE_STR VirtualSystemIdentifier;
+    XML_TYPE_STR VirtualSystemType;
+    XML_TYPE_DYN_ARRAY Notes;
     XML_TYPE_STR CreationTime;
-    XML_TYPE_STR Notes;
+    XML_TYPE_STR ConfigurationID;
+    XML_TYPE_STR ConfigurationDataRoot;
+    XML_TYPE_STR ConfigurationFile;
+    XML_TYPE_STR SnapshotDataRoot;
+    XML_TYPE_STR SuspendDataRoot;
+    XML_TYPE_STR SwapFileDataRoot;
+    XML_TYPE_STR LogDataRoot;
+    XML_TYPE_UINT16 AutomaticStartupAction;
+    XML_TYPE_STR AutomaticStartupActionDelay;
+    XML_TYPE_UINT16 AutomaticStartupActionSequenceNumber;
+    XML_TYPE_UINT16 AutomaticShutdownAction;
+    XML_TYPE_UINT16 AutomaticRecoveryAction;
+    XML_TYPE_STR RecoveryFile;
     XML_TYPE_STR BIOSGUID;
     XML_TYPE_STR BIOSSerialNumber;
     XML_TYPE_STR BaseBoardSerialNumber;
@@ -258,8 +269,22 @@ struct _Msvm_VirtualSystemSettingData_Data {
     XML_TYPE_BOOL BIOSNumLock;
     XML_TYPE_DYN_ARRAY BootOrder;
     XML_TYPE_STR Parent;
-    XML_TYPE_DYN_ARRAY NumaNodeList;
-    XML_TYPE_BOOL NumaNodesAreRequired;
+    XML_TYPE_BOOL IsSaved;
+    XML_TYPE_STR AdditionalRecoveryInformation;
+    XML_TYPE_BOOL AllowFullSCSICommandSet;
+    XML_TYPE_UINT32 DebugChannelId;
+    XML_TYPE_UINT16 DebugPortEnabled;
+    XML_TYPE_UINT32 DebugPort;
+    XML_TYPE_STR Version;
+    XML_TYPE_BOOL IncrementalBackupEnabled;
+    XML_TYPE_BOOL VirtualNumaEnabled;
+    XML_TYPE_BOOL AllowReducedFcRedundancy;
+    XML_TYPE_STR VirtualSystemSubType;
+    XML_TYPE_DYN_ARRAY BootSourceOrder;
+    XML_TYPE_BOOL PauseAfterBootFailure;
+    XML_TYPE_UINT16 NetworkBootPreferredProtocol;
+    XML_TYPE_BOOL SecureBootEnabled;
+    XML_TYPE_UINT64 LowMmioGapSize;
 };
 
 SER_DECLARE_TYPE(Msvm_VirtualSystemSettingData_Data);
